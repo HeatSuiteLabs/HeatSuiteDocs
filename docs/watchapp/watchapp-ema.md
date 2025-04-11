@@ -51,8 +51,9 @@ Below is an example of a heatsuite.survey.json file with one question, with two 
     }]
 }
 ```
-And this will present us with this question on the watch:
+And this will present us with this question on the watch (the top text is scrolling if it does not fit on screen):
 
+![HeatSuite EMA Example](../assets/heatsuite_ema_example.png)
 
 Lets break it down:
 ```json
@@ -96,9 +97,10 @@ Lets break it down:
         }],
 }
 ```
+
 * `key`: The definition/classification you want to give this question
 * `text`: an object `{}` containing the question/prompt with keys corresponding to all supported languages and values containing the text to be presented.
-* `tod`(optional): an array `[]` of arrays `[]` containing possible restrictions of the question depending on time of day (in 24h clock). Within this example, The question may be presented at any time of day (`[0,2359]`). However, if you want restrict the question to only be visible in the morning, you would adjust to `[0,1159]`. If you only want questions to be restricted to specific times of day, you can add multiple time windows in the array like this: `"tod":[[0,1159],[1400,1800]]`. In this example, you will only see the question between 00:00 & 11:59, or 14:00 & 18:00.  
+* `tod`(optional): an array `[]` of arrays `[]` containing possible restrictions of the question depending on time of day (in 24h clock). Within this example, The question may be presented at any time of day (`[0,2359]`). However, if you want to restrict the question to only be visible in the morning, you would adjust to `[0,1159]`. If you only want questions to be restricted to specific times of day, you can add multiple time windows in the array like this: `"tod":[[0,1159],[1400,1800]]`. In this example, you will only see the question between 00:00 & 11:59, or 14:00 & 18:00.  
 * `oncePerDay`(optional): a boolean value (`true` or `false`) to restrict the question to only appear once a day.
 * `orderFix` (optional): a boolean value (`true` or `false`) to fix the order of this question if you have selected question randomization in HeatSuite settings.
 * `options`: an array `[]` of objects `{}` containing details for each option to present for the user to select. Within each object, you have the following options:

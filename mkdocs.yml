@@ -1,12 +1,14 @@
 site_name: HeatSuite Docs
 theme:
   name: material
+  logo: assets/logo.svg
   features:
-    - navigation.tabs
-    - navigation.tabs.sticky
+    - navigation.tabs 
+    - navigation.sections
     - navigation.path
     - toc.integrate
     - navigation.top
+    - navigation.footer
     - search.suggest
     - search.highlight
     - content.tabs.link
@@ -26,6 +28,15 @@ theme:
         name: Switch to light mode    
       primary: teal
       accent: lime
+
+nav:
+  - Home : index.md
+  - Watch Application:
+    - Initial Setup: watchapp/index.md 
+    - EMA Survey: watchapp/watchapp-ema.md
+    - Tasks: watchapp/watchapp-tasks.md
+    - HeatSuite Module: watchapp/watchapp-hsmodule.md
+
 
 plugins:
   - search
