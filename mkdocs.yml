@@ -32,7 +32,7 @@ theme:
 nav:
   - Home : index.md
   - Watch Application:
-    - Initial Setup: watchapp/index.md 
+    - Watch Setup: watchapp/index.md 
     - EMA Survey: watchapp/watchapp-ema.md
     - Tasks: watchapp/watchapp-tasks.md
     - HeatSuite Module: watchapp/watchapp-hsmodule.md
