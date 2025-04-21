@@ -30,7 +30,9 @@ theme:
       accent: lime
 
 nav:
-  - Home : index.md
+  - Home : 
+    - index.md
+    - Research Using HeatSuite: research.md
   - Watch Application:
     - Watch Setup: watchapp/index.md 
     - EMA Survey: watchapp/watchapp-ema.md
@@ -54,6 +56,9 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.mark
   - attr_list
+  - pymdownx.emoji:      
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 copyright: |
   &copy; 2025 <a href="https://github.com/nravanelli"  target="_blank" rel="noopener">Nicholas Ravanelli</a>
