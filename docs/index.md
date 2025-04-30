@@ -23,3 +23,31 @@ As HeatSuite is a modular system, you can pick and choose what you want to incor
 - Satellite Nodes - Details incoming
     - docs coming soon
 
+
+## Citing HeatSuite in your work
+
+If you use HeatSuite, please cite it using the following publication:
+
+Ravanelli N, Lefebre K, Mornas A, Gagnon D. *Evaluating compliance with HeatSuite for monitoring in situ physiological and perceptual responses and personal environmental exposure*. npj-Digital Medicine, 2025. doi: [10.1038/s41746-025-01608-z](https://doi.org/10.1038/s41746-025-01608-z)
+
+```
+@ARTICLE{Ravanelli2025-av,
+  title     = "Evaluating compliance with {HeatSuite} for monitoring in situ
+               physiological and perceptual responses and personal
+               environmental exposure",
+  author    = "Ravanelli, Nicholas and Lefebvre, Karlee and Mornas, Ad{\`e}le
+               and Gagnon, Daniel",
+  journal   = "NPJ Digit. Med.",
+  publisher = "Nature Publishing Group",
+  volume    =  8,
+  number    =  1,
+  pages     = "223",
+  month     =  apr,
+  year      =  2025,
+  language  = "en"
+}
+
+```
+## Notice
+
+While every effort has been made to ensure the accuracy of the information on these pages, errors may still exist. The authors cannot be held responsible for any inaccuracies or resulting consequences. If you notice any mistakes, we encourage you to bring them to our attention.
