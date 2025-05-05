@@ -9,7 +9,7 @@ Similar to the question-based [ecological momentary assessments](watchapp-ema.md
 The custom Bangle.js App Uploader for HeatSuite includes a json editor for detailing tasks which are uploaded to the watch as a `heatsuite.tasks.json` file. Tasks and their options are organized as nested objects `{}` within an array `[]`.
 
 ## How do I see the tasks in my study on the watch?
-Simply double tap the screen and you will be greeted with the main Heatsuite App:
+Simply onlock the screen and swipe right when the widget is active and you will be greeted with the main Heatsuite App:
 
 ![HeatSuite Main Application](../assets/heatsuite_app.png)
 

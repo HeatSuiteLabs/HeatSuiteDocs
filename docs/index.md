@@ -17,7 +17,7 @@ The primary usecase of the HeatSuite system is to monitor the health and behavio
 As HeatSuite is a modular system, you can pick and choose what you want to incorporate into your study design. The system is designed in this way so as to not limit researcher creativity or impose restrictions on what you can measure. If there is something you want to add or a feature you'd like to see, [let me know](emailto:nick.ravanelli@gmail.com). Below is a list of components within the HeatSuite system that you can select from to increase your level of monitoring. Again, you do not need all components, you can even just use the watch to create a fully governed data collection solution!
 
 - [Bangle.js2](https://www.espruino.com/Bangle.js2)
-    - [Documentation here](/docs/watchapp/index.md)
+    - [Documentation here](watchapp/index.md)
 - Environmental Node - Details incoming
     - docs coming soon
 - Satellite Nodes - Details incoming
@@ -26,7 +26,7 @@ As HeatSuite is a modular system, you can pick and choose what you want to incor
 
 ## Citing HeatSuite in your work
 
-If you use HeatSuite, please cite it using the following publication:
+If you use HeatSuite, please cite it using the following publication(s):
 
 Ravanelli N, Lefebre K, Mornas A, Gagnon D. *Evaluating compliance with HeatSuite for monitoring in situ physiological and perceptual responses and personal environmental exposure*. npj-Digital Medicine, 2025. doi: [10.1038/s41746-025-01608-z](https://doi.org/10.1038/s41746-025-01608-z)
 
@@ -46,7 +46,6 @@ Ravanelli N, Lefebre K, Mornas A, Gagnon D. *Evaluating compliance with HeatSuit
   year      =  2025,
   language  = "en"
 }
-
 ```
 ## Notice
 
