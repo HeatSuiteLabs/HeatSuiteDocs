@@ -29,7 +29,7 @@ Follow these instructions on the watch to pair a Bluetooth HRM:
 
 ## Pairing a CORE/CALERA Sensor
 
-The CORE Sensor is device which indirectly estimates core body temperature using a heat flux sensor (read more about it [here](https://corebodytemp.com/pages/core-sensor-technology)) and can measure skin temperature. The onboard proprietary algorithm has two modes, free-living and exertional, where exertional only engages when heart rate exceeds 120 BPM, and requires the pairing of an ANT+ or Bluetooth Heart Rate Strap to the CORE Sensor. While I will not comment on the validity and reliability of the GreenTEG solution for estimating core body temperature (you can read other [validation studies](https://scholar.google.ca/scholar?hl=en&as_sdt=0%2C5&q=%28%22CORE+Sensor%22+OR+%22CALERA%22%29+%26%26+%22GreenTEG%22&btnG=) for specific use cases), I included it in HeatSuite for skin temperature and heat flux monitoring ([CALERA](https://info.greenteg.com/calera-research) version is only capable of broadcasting heat flux - likely firmware locked on the CORE). Pairing the CORE/CALERA Sensor with the Bangle.js2 uses the [coretemp app](https://github.com/espruino/BangleApps/tree/master/apps/coretemp) available from the Bangle.js App Loader. 
+The CORE Sensor is a device which indirectly estimates core body temperature using a heat flux sensor (read more about it [here](https://corebodytemp.com/pages/core-sensor-technology)) and can measure skin temperature. The onboard proprietary algorithm has two modes, free-living and exertional, where exertional only engages when heart rate exceeds 120 BPM, and requires the pairing of an ANT+ or Bluetooth Heart Rate Strap to the CORE Sensor. While I will not comment on the validity and reliability of the GreenTEG solution for estimating core body temperature (you can read other [validation studies](https://scholar.google.ca/scholar?hl=en&as_sdt=0%2C5&q=%28%22CORE+Sensor%22+OR+%22CALERA%22%29+%26%26+%22GreenTEG%22&btnG=) for specific use cases), I included it in HeatSuite for skin temperature and heat flux monitoring ([CALERA](https://info.greenteg.com/calera-research) version is only capable of broadcasting heat flux - likely firmware locked on the CORE). Pairing the CORE/CALERA Sensor with the Bangle.js2 uses the [coretemp app](https://github.com/espruino/BangleApps/tree/master/apps/coretemp) available from the Bangle.js App Loader. 
 
 Follow these instructions on the watch to pair a CORE/CALERA Sensor:
 
@@ -42,13 +42,13 @@ After you pair the CORE/CALERA Sensor, you will be prompted to pair a heart rate
 
 To pair an ANT+ HRM:
 
-5. Continue after your successful pairing of the CORE Sensor, or navigate to Navigate to `Settings->Apps->CoreTemp->HRM Settings`
+5. Continue after your successful pairing of the CORE Sensor, or navigate to `Settings->Apps->CoreTemp->HRM Settings`
 6. Click `Scan for ANT+`. This will scan for 10 seconds to find nearby ANT+ HR devices. 
 7. The first one in the list should be the nearest device, so click its ID and it will begin to pair.
 
 *__Note:__ I recommend enabling the CORE Sensor Widget to monitor its connection. The widget will glow green when connected to the Bangle.js2.*
 
-*__Note:__ Pairing an CORE/CALERA Sensor does not automatically have it log data within HeatSuite, you must also enable CORE Sensor as a 'Recorder option' of HeatSuite; either within the App Loader Screen or on the watch within HeatSuite Settings.*
+*__Note:__ Pairing a CORE/CALERA Sensor does not automatically have it log data within HeatSuite, you must also enable CORE Sensor as a 'Recorder option' of HeatSuite; either within the App Loader Screen or on the watch within HeatSuite Settings.*
 
 ## Downloading Data
 
