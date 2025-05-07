@@ -17,6 +17,7 @@ Each of the tabs contain settings you can set for the application, including [Ta
 HeatSuite leverages the [BTHRM app](https://github.com/espruino/BangleApps/tree/master/apps/bthrm) available from the Bangle.js App Loader. This will automatically install alongside the HeatSuite app. Pairing a heart rate strap, particularly an ECG based one, is advantageous as you will also aggregrate all RR-intervals each minute (if supported by the heart rate monitor). We have tested the [Polar H10](https://www.polar.com/us-en/sensors/h10-heart-rate-sensor) and the [Powr-Labs chest-based HRM](https://www.powr-labs.com/products/powr-labs-pulsr-chest-heart-rate-monitor-ant-bluetooth-4-0-dualband) and both broadcast RR-intervals.
 
 Follow these instructions on the watch to pair a Bluetooth HRM:
+
 1. Navigate to `Settings->Apps->BTHRM`
 2. Click `BLE Scan`, which will scan for nearby Bluetooth HRM devices. If your device is not found, make sure it is on (some must be worn to be active and broadcasting).
 3. After the scan, you should be presented with a list of found devices. Click the one you want to pair to the watch.
