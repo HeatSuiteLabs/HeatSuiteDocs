@@ -28,10 +28,10 @@ As HeatSuite is a modular system, you can pick and choose what you want to incor
 
 If you use HeatSuite, please cite it using the following publication(s):
 
-Ravanelli N, Lefebre K, Mornas A, Gagnon D. *Evaluating compliance with HeatSuite for monitoring in situ physiological and perceptual responses and personal environmental exposure*. npj-Digital Medicine, 2025. doi: [10.1038/s41746-025-01608-z](https://doi.org/10.1038/s41746-025-01608-z)
+Ravanelli N, Lefebre K, Mornas A, Gagnon D. Evaluating compliance with HeatSuite for monitoring in situ physiological and perceptual responses and personal environmental exposure. *npj-Digital Medicine*, 2025. doi: [10.1038/s41746-025-01608-z](https://doi.org/10.1038/s41746-025-01608-z)
 
 ```
-@ARTICLE{Ravanelli2025-av,
+@ARTICLE{Ravanelli2025-npj,
   title     = "Evaluating compliance with {HeatSuite} for monitoring in situ
                physiological and perceptual responses and personal
                environmental exposure",
@@ -47,6 +47,26 @@ Ravanelli N, Lefebre K, Mornas A, Gagnon D. *Evaluating compliance with HeatSuit
   language  = "en"
 }
 ```
+
+Ravanelli N, Lefebvre K, Brough A, Paquette S, Lin W. Validation of an Open-Source Smartwatch for Continuous Monitoring of Physical Activity and Heart Rate in Adults. *Sensors*. 2025; 25(9):2926. doi: [10.3390/s25092926](https://doi.org/10.3390/s25092926)
+
+```
+
+@Article{Ravanelli2025-sensors,
+AUTHOR = {Ravanelli, Nicholas and Lefebvre, KarLee and Brough, Amy and Paquette, Simon and Lin, Wei},
+TITLE = {Validation of an Open-Source Smartwatch for Continuous Monitoring of Physical Activity and Heart Rate in Adults},
+JOURNAL = {Sensors},
+VOLUME = {25},
+YEAR = {2025},
+NUMBER = {9},
+ARTICLE-NUMBER = {2926},
+URL = {https://www.mdpi.com/1424-8220/25/9/2926},
+ISSN = {1424-8220},
+DOI = {10.3390/s25092926}
+}
+```
+
+
 ## Notice
 
 While every effort has been made to ensure the accuracy of the information on these pages, errors may still exist. The authors cannot be held responsible for any inaccuracies or resulting consequences. If you notice any mistakes, we encourage you to bring them to our attention.

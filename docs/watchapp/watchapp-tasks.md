@@ -15,12 +15,15 @@ Simply onlock the screen and swipe right when the widget is active and you will 
 
 This is the default setup, showing you all the possible options at present. The colors of each of the buttons provide the user some feedback:
 
-+ <font color="green">Green</font> Means the task has been completed recently and/or the user can press the button to create a marker (Discussed more in the custom task section).
++ <font color="green">Green</font> Means the task has been completed recently and/or the user can press the button to navigate to or do a task*.
 +  <font color="red">Red</font> means that the task can't be completed yet because another step needs to be done. This example shows that the external devices have yet to be paired with the watch.
 + <font color="yellow">Yellow</font> means you are scheduled to do this task.
 
+_*Note: If the task requires a bluetooth device, the app will scan for the device and automatically handle the task once found._
+
 The `Searching...` text at the bottom of the screen shows that the watch is searching for devices that it may need to connect to via Bluetooth. This text will change when a device is found, and the appropriate handling of the task will ensue. As Bluetooth scanning drains the battery, the HeatSuite App will timeout after 3 minutes and revert back to the clock.
 
+_Note: This will only show when a bluetooth device is associated with a task._
 
 ## Formatting heatsuite.tasks.json
 
@@ -104,7 +107,6 @@ Example task object for oral temperature measurements using a custom Bluetooth d
     "id": "coreTemperature",
     "icon": 'require("heatshrink").decompress(atob("lEo4kA///A4Pf99fx3YtnjjEkkN/7+X0ujoFK/VusdBhH0ykIoXY2ozPjnBIyEBr2piATPiuq1WREx9aCYIoPjmaCYIoOgNo9ITC1gTMi3yvwoC9gmNw8nFAVRExmL5dyFAOlMZcBt+2223FAImN+9Emlru/cExlo6kzme8x9hJptkmYnBwwmN21DmdG3Am/TZF28YmPgvyl9rEx0AjsikX28wmNgFnkVyFAImNgHnl7pBvAmNgOyk/3u/2ExsM6UiEx8Ajd3u9/6omNgO3u/b8wSNgEeu974IRNEwPvu+xCRzrB+/+HBwABrF/8ISPhnXYBwAC5t9qImQ2/cCR8Ajm32ASPgPr5YmQj3eMCEB9qHQEycA5wmROoImRgAA=="))',
     "tod": [830,1330,1930],
-    "TaskDesc": "coreTemperature_TaskDesc",
     "debounce": 3600,
     "btPair": true,
     "btInfo": {
