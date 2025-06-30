@@ -1,6 +1,4 @@
- :construction: __This documentation is still under construction__ :construction:
-
-# HeatSuite
+# Begin
 
 New to HeatSuite? Start here.
 

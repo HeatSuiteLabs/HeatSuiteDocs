@@ -52,7 +52,7 @@ To pair an ANT+ HRM:
 
 ## Downloading Data
 
-While the easiest route for downloading data is by pairing it with a HeatSuite Main Node, You can use the watch independently and download HeatSuite specific data files from the BangleApps site by clicking the Download Tab:
+While the easiest route for downloading data is by pairing it with a HeatSuite Primary Node, You can use the watch independently and download HeatSuite specific data files from the BangleApps site by clicking the Download Tab:
 
 ![HeatSuite BangleApps Downloads](../assets/heatsuite_bangleapps_downloads.png)
 
