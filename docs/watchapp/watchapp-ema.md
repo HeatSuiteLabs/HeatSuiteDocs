@@ -71,6 +71,7 @@ Lets break it down:
 ```json
 {
     "key":"comfort",
+    "followup": false,
     "text": {
         "en_GB":"Thermal comfort?",
         "fr_CA":"Confort thermique?"
@@ -93,12 +94,14 @@ Lets break it down:
             },
         "value":1,
         "color":"#ffffff",
-        "btnColor":"#ff0019"
+        "btnColor":"#ff0019",
+        "next": "uc_reason"
         }],
 }
 ```
 
 * `key`: The definition/classification you want to give this question
+* `followup` (optional, default is false): This labels a question as a follow up question. You can use this to create questions that are asked only when a given response is received.
 * `text`: an object `{}` containing the question/prompt with keys corresponding to all supported languages and values containing the text to be presented.
 * `tod`(optional): an array `[]` of arrays `[]` containing possible restrictions of the question depending on time of day (in 24h clock). Within this example, The question may be presented at any time of day (`[0,2359]`). However, if you want to restrict the question to only be visible in the morning, you would adjust to `[0,1159]`. If you only want questions to be restricted to specific times of day, you can add multiple time windows in the array like this: `"tod":[[0,1159],[1400,1800]]`. In this example, you will only see the question between 00:00 & 11:59, or 14:00 & 18:00.  
 * `oncePerDay`(optional): a boolean value (`true` or `false`) to restrict the question to only appear once a day.
@@ -108,4 +111,5 @@ Lets break it down:
     * `value`: the numerical value you wish for response coding.
     * `color`: The color of the option text.
     * `btnColor`: The color of the option background.
+    * `next` (optional): the unique `key` of the follow up question. When this option is pressed, this will present the user the defined follow up question.
 
