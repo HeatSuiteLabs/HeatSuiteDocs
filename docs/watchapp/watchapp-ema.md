@@ -24,6 +24,7 @@ Below is an example of a heatsuite.survey.json file with one question, with two 
     },
 "questions":[{
     "key":"comfort",
+    "followup": false,
     "text": {
         "en_GB":"Thermal comfort?",
         "fr_CA":"Confort thermique?"
@@ -46,7 +47,8 @@ Below is an example of a heatsuite.survey.json file with one question, with two 
             },
         "value":1,
         "color":"#ffffff",
-        "btnColor":"#ff0019"
+        "btnColor":"#ff0019",
+        "next": "uc_reason"
         }]
     }]
 }
