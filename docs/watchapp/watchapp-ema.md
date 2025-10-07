@@ -108,10 +108,24 @@ Lets break it down:
 * `tod`(optional): an array `[]` of arrays `[]` containing possible restrictions of the question depending on time of day (in 24h clock). Within this example, The question may be presented at any time of day (`[0,2359]`). However, if you want to restrict the question to only be visible in the morning, you would adjust to `[0,1159]`. If you only want questions to be restricted to specific times of day, you can add multiple time windows in the array like this: `"tod":[[0,1159],[1400,1800]]`. In this example, you will only see the question between 00:00 & 11:59, or 14:00 & 18:00.  
 * `oncePerDay`(optional): a boolean value (`true` or `false`) to restrict the question to only appear once a day.
 * `orderFix` (optional): a boolean value (`true` or `false`) to fix the order of this question if you have selected question randomization in HeatSuite settings.
+
+## Formatting the options key for different response types
+
+With HeatSuite watch app v0.12 and above, you now have the option to provide vertical scrolling options or numerical options. This is done by setting the options value as either an array `[]` of objects `{}` or as an object `{}`. This is explained below:
+
+### For scrollable options:
 * `options`: an array `[]` of objects `{}` containing details for each option to present for the user to select. Within each object, you have the following options:
     * `text`: and object `{}` containing your language specific (key) option text (value).
     * `value`: the numerical value you wish for response coding.
     * `color`: The color of the option text.
     * `btnColor`: The color of the option background.
-    * `next` (optional): the unique `key` of the follow up question. When this option is pressed, this will present the user the defined follow up question.
+    * `next` (optional): the unique `key` of the follow up question. When this option is pressed, this will present the user the defined follow up question. You could iterate this 'next' feature to keep asking the same question over and over, or nest multiple follow up questions depending on response.
 
+### For numerical options:
+* `options`: an object `{}` containing the following keys:
+    * `startOpt`: The value you want presented first.
+    * `min`: The smallest value that can be selected.
+    * `max`: The highest value that can be selected.
+    * `optStep`: The step between values (e.g. 1 unit increments would be 1).
+    * `units` (optional): To append to the visible response.
+    * `next` (optional): An object `{}` containing the specific values as `keys`, where their `value` is the the key of the follow up question.
