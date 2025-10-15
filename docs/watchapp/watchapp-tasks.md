@@ -79,6 +79,7 @@ In the current HeatSuite Watch App version, the following tasks have already bee
 - [Body Composition](#body-composition) (requires Xiaomi Mi Scale 2)
 - [Mictruition](#mictruition)
 - [Ecological Momentary Assessments](#ecological-momentary-assessments)
+- [5x Sit To Stand](#5x-sit-to-stand)
 - [Custom Tasks](#custom-tasks)
 
 ### Blood Pressure
@@ -157,6 +158,21 @@ Example task object for Ecological Momentary Assessments where you want to progr
     "icon": 'require("heatshrink").decompress(atob("lEo4kA///6H7BIP2m9hjEpyQLBxeq0UAp3js1Z5F59GB9nChvL+83E4cCkQABkA6NgUq293rVCChsq6MRAAOcoQmM4ISCAAPqFBclCQkRjJpBExOxCYsR8goJkmRB4XuAYUVCZMsJYdEFgUZoATIpwTC1XnooFC2QTIoIhCC4OqCYVyMRGhBoXhjNLAoXSCZkR2mpAgXilGIwRnFCYlKPgd40czmeoCglJCYd5AgdYn////zCgknBwfZAgeqCQIUCwQTClQOD3oDCj1DCYf/nATHAAcawYTE/Q8CkoTHvE/+c6mY8FMYgACi9Kn84xAqDmSfC7euCYnE0f/1CKBPQRQBgWqkUk3zeCvWKBwJ4BnATFKQUipWq0koBoSyBxATDZYsCkUAOgk4AoYTGAAUjCYgmCUAgAFlQTDRQQTGgUowQuBJ4f/nQEDRYIiD81u0UAhAODmYECeAkCq1ms1nkECbIoACD4ImCCQIAB2QGBFAYADHYchs3nv1msguBY4IAD+bhBCYVGs261YTCMovz1GKnSfCCYIACtRXCxTHBeAJYBxGACYek8wnDSYWIxAjCdocls0eE4PiXhAAEhEWCQNhoATNgFOCYPkCRxABpdqIQQUP2gSQCYMiCaMAHRw="))',
     "cbBtn": "Bangle.load('heatsuite.survey.js');",
     "tod": [900,1200,1500,1800],
+    "debounce": 300
+}
+```
+
+### 5x Sit to Stand
+
+The **Five Times Sit-to-Stand Test (5xSTS)** is a simple functional assessment used to evaluate lower limb strength, balance, and mobility. In this test, participants sit in a standard-height chair without armrests, cross their arms over their chest, and are instructed to stand up and sit down five times as quickly and safely as possible. The total time taken to complete the five repetitions is recorded. The test provides an objective measure of functional lower-body performance and is widely used in clinical, geriatric, and exercise physiology settings.
+
+*NOTE*: Validation ongoing - use at your own risk.
+
+```json
+{
+    "id": "5sts",
+    "icon": 'require("heatshrink").decompress(atob("lEo4kA///A4PTzkv/8fp/tjWCBoNGw+DrlGh0b9WsFZ8RiMQCR8BCYMREyEzmYoPgMTCYMxCaQoBCcs4HZ5jCJ553Bic7UCCfTCgLGQAAQTRHYQUQiMZoLvRolEoIoNBoMUCZ5MBgITQiMhiIT/CfbeMCZDeKCYoAC0IoJCZBSKCYMQiITRJQQACFgJQJCY4sBCZcSkQABIAYnPCYehCaEBihkJBwQEECc8AixkJCZB4KCakRCYYECgIEBCY4KBAgwDBMYg="));',
+    "tod": [900],
     "debounce": 300
 }
 ```
