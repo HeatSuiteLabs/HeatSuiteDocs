@@ -57,7 +57,8 @@ Below is an example of a properly formatted `heatsuite.tasks.json` with 2 tasks 
           "supported": [
             "A&D_UA-651"
           ]
-        }
+        },
+        "options":{}
     }
 ]
 ```
@@ -69,6 +70,7 @@ Lets break it down for the `Blood Pressure` task:
 + `debounce`: (optional) This is the range, in seconds, whereby a notification will not be sent if the task was completed within that time frame of the nudge.
 + `btPair`: (optional) Required for any devices that must be paired before communication.
 + `btInfo`: (optional) Contains an object `{}` with details about the bluetooth device and what filters are needed for a connection.
++ `options`: (optional) Task-specific options that can be defined to modify the task.
 
 ## What tasks are immediately available?
 
@@ -143,6 +145,9 @@ Example task object for the micruition feature which can be used to record urina
     "cbBtn": "Bangle.load('heatsuite.urine.js');",
     "debounce": 0,
     "tod": [],
+    "options": {
+        "alwaysColor" : false //Always show the color scale when logging mictruition. Default is false.
+    }
 }
 ```
 
