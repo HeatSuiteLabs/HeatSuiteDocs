@@ -18,3 +18,4 @@ Ravanelli, N. Observing the in-situ physiological and behavioral responses heat-
 
 Ravanelli, N, Lefebvre K, Mornas A, Gagnon D. In situ physiological and behavioural responses of vulnerable populations during an extreme heat event in Montreal, Quebec 2023: a pilot study. *American Physiological Society Summit*, Long Beach, California, Poster Presentation 2024.
 
+Souilla, L., Lefebvre, K., Mornas, A., Kaiser, D., Gagnon, D., Ravanelli, N. In-situ responses of older adults living in social housing before, during and after a heatwave. Global Health Symposium, Copenhagen, Denmark, Dec 2025. Oral Presentation. 
