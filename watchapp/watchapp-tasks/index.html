@@ -1,0 +1,1109 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../watchapp-ema/">
+      
+      
+        <link rel="next" href="../watchapp-hsmodule/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.22">
+    
+    
+      
+        <title>Tasks - HeatSuite Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.84d31ad4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#heatsuite-watch-app-tasks" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+        <aside class="md-banner">
+          <div class="md-banner__inner md-grid md-typeset">
+            
+              <button class="md-banner__button md-icon" aria-label="Don't show this again">
+                
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+              </button>
+            
+            
+  <div style="color:orange;"><img alt="🚧" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f6a7.svg" title=":construction:"> <strong>This documentation is still under construction and may be incomplete</strong> <img alt="🚧" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f6a7.svg" title=":construction:"></div>
+
+          </div>
+          
+            <script>var el=document.querySelector("[data-md-component=announce]");if(el){var content=el.querySelector(".md-typeset");__md_hash(content.innerHTML)===__md_get("__announce")&&(el.hidden=!0)}</script>
+          
+        </aside>
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="HeatSuite Docs" class="md-header__button md-logo" aria-label="HeatSuite Docs" data-md-component="logo">
+      
+  <img src="../../assets/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            HeatSuite Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Tasks
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="purple"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="lime"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../.." class="md-tabs__link">
+          
+  
+  
+  Home
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+  
+  Watch Application
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../nodes/" class="md-tabs__link">
+          
+  
+  
+  Environmental Nodes
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="HeatSuite Docs" class="md-nav__button md-logo" aria-label="HeatSuite Docs" data-md-component="logo">
+      
+  <img src="../../assets/logo.svg" alt="logo">
+
+    </a>
+    HeatSuite Docs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Home
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Begin
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Research Using HeatSuite
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Watch Application
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Watch Application
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Watch Setup
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../watchapp-ema/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    EMA Survey
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Tasks
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tasks
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-are-tasks" class="md-nav__link">
+    <span class="md-ellipsis">
+      What are tasks?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-do-i-add-tasks-in-my-study" class="md-nav__link">
+    <span class="md-ellipsis">
+      How do I add tasks in my study?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-do-i-see-the-tasks-in-my-study-on-the-watch" class="md-nav__link">
+    <span class="md-ellipsis">
+      How do I see the tasks in my study on the watch?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#formatting-heatsuitetasksjson" class="md-nav__link">
+    <span class="md-ellipsis">
+      Formatting heatsuite.tasks.json
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-tasks-are-immediately-available" class="md-nav__link">
+    <span class="md-ellipsis">
+      What tasks are immediately available?
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="What tasks are immediately available?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#blood-pressure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Blood Pressure
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#oral-temperature" class="md-nav__link">
+    <span class="md-ellipsis">
+      Oral Temperature
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#body-composition" class="md-nav__link">
+    <span class="md-ellipsis">
+      Body Composition
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mictruition" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mictruition
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ecological-momentary-assessments" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ecological Momentary Assessments
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5x-sit-to-stand" class="md-nav__link">
+    <span class="md-ellipsis">
+      5x Sit to Stand
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#custom-tasks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Custom Tasks
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../watchapp-hsmodule/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    HeatSuite Module
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Environmental Nodes
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Environmental Nodes
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../nodes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../nodes/node-primary-build/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Primary Node Assembly
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="heatsuite-watch-app-tasks">HeatSuite Watch App - Tasks</h1>
+<h2 id="what-are-tasks">What are tasks?</h2>
+<p>Similar to the question-based <a href="../watchapp-ema/">ecological momentary assessments</a>, you can also add tasks to your HeatSuite install for users to perform. The data collected from these tasks will automatically save to the watches internal storage for future downloading.</p>
+<h2 id="how-do-i-add-tasks-in-my-study">How do I add tasks in my study?</h2>
+<p>The custom Bangle.js App Uploader for HeatSuite includes a json editor for detailing tasks which are uploaded to the watch as a <code>heatsuite.tasks.json</code> file. Tasks and their options are organized as nested objects <code>{}</code> within an array <code>[]</code>.</p>
+<h2 id="how-do-i-see-the-tasks-in-my-study-on-the-watch">How do I see the tasks in my study on the watch?</h2>
+<p>Simply onlock the screen and swipe right when the widget is active and you will be greeted with the main Heatsuite App:</p>
+<p><img alt="HeatSuite Main Application" src="../../assets/heatsuite_app.png" /></p>
+<p>This is the default setup, showing you all the possible options at present. The colors of each of the buttons provide the user some feedback:</p>
+<ul>
+<li><font color="green">Green</font> Means the task has been completed recently and/or the user can press the button to navigate to or do a task*.</li>
+<li><font color="red">Red</font> means that the task can't be completed yet because another step needs to be done. This example shows that the external devices have yet to be paired with the watch.</li>
+<li><font color="yellow">Yellow</font> means you are scheduled to do this task.</li>
+</ul>
+<p><em>*Note: If the task requires a bluetooth device, the app will scan for the device and automatically handle the task once found.</em></p>
+<p>The <code>Searching...</code> text at the bottom of the screen shows that the watch is searching for devices that it may need to connect to via Bluetooth. This text will change when a device is found, and the appropriate handling of the task will ensue. As Bluetooth scanning drains the battery, the HeatSuite App will timeout after 3 minutes and revert back to the clock.</p>
+<p><em>Note: This will only show when a bluetooth device is associated with a task.</em></p>
+<h2 id="formatting-heatsuitetasksjson">Formatting heatsuite.tasks.json</h2>
+<p>Below is an example of a properly formatted <code>heatsuite.tasks.json</code> with 2 tasks (survey &amp; Blood Pressure):</p>
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="p">[</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">    </span><span class="p">{</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">        </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;survey&quot;</span><span class="p">,</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">        </span><span class="nt">&quot;icon&quot;</span><span class="p">:</span><span class="w"> </span><span class="err">&#39;require(</span><span class="s2">&quot;heatshrink&quot;</span><span class="err">).decompress(a</span><span class="kc">t</span><span class="err">ob(</span><span class="s2">&quot;lEo4kA///6H7BIP2m9hjEpyQLBxeq0UAp3js1Z5F59GB9nChvL+83E4cCkQABkA6NgUq293rVCChsq6MRAAOcoQmM4ISCAAPqFBclCQkRjJpBExOxCYsR8goJkmRB4XuAYUVCZMsJYdEFgUZoATIpwTC1XnooFC2QTIoIhCC4OqCYVyMRGhBoXhjNLAoXSCZkR2mpAgXilGIwRnFCYlKPgd40czmeoCglJCYd5AgdYn////zCgknBwfZAgeqCQIUCwQTClQOD3oDCj1DCYf/nATHAAcawYTE/Q8CkoTHvE/+c6mY8FMYgACi9Kn84xAqDmSfC7euCYnE0f/1CKBPQRQBgWqkUk3zeCvWKBwJ4BnATFKQUipWq0koBoSyBxATDZYsCkUAOgk4AoYTGAAUjCYgmCUAgAFlQTDRQQTGgUowQuBJ4f/nQEDRYIiD81u0UAhAODmYECeAkCq1ms1nkECbIoACD4ImCCQIAB2QGBFAYADHYchs3nv1msguBY4IAD+bhBCYVGs261YTCMovz1GKnSfCCYIACtRXCxTHBeAJYBxGACYek8wnDSYWIxAjCdocls0eE4PiXhAAEhEWCQNhoATNgFOCYPkCRxABpdqIQQUP2gSQCYMiCaMAHRw=&quot;</span><span class="err">))&#39;</span><span class="p">,</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">        </span><span class="nt">&quot;cbBtn&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Bangle.load(&#39;heatsuite.survey.js&#39;);&quot;</span><span class="p">,</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">        </span><span class="nt">&quot;tod&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="w">          </span><span class="mi">900</span><span class="p">,</span>
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="w">          </span><span class="mi">1200</span><span class="p">,</span>
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="w">          </span><span class="mi">1500</span><span class="p">,</span>
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="w">          </span><span class="mi">1800</span>
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="w">        </span><span class="p">],</span>
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="w">        </span><span class="nt">&quot;debounce&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">300</span>
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="w">    </span><span class="p">},{</span>
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="w">        </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;bloodPressure&quot;</span><span class="p">,</span>
+<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="w">        </span><span class="nt">&quot;icon&quot;</span><span class="p">:</span><span class="w"> </span><span class="err">&#39;require(</span><span class="s2">&quot;heatshrink&quot;</span><span class="err">).decompress(a</span><span class="kc">t</span><span class="err">ob(</span><span class="s2">&quot;lEo4kA///zND//3BYOe98ggHGhEllM533ssW5odBhFOud642DhE10omCnczHSO3s3jmATP3MRjNrCh+2s0ZzNrCJkDn1mv1382X8YlMyMRi1xy1hzwSKhdxs12CYIWBu5RKm8WtMeCYfp8ATJ2MRiITDjPpsCUCu4ADv2w24TBjITCiOZE4MLCQgABve+MQMXCYeW2ATBv2ZAAeeve28w7Ey3mE4dCkQACx172INBtd+s1m81xJ4ITBpH/wn//oTB29pjIRBs1nAgITD7l3zGXv4nDsJRBiORz1hCYdCogBCCYWhiNusNutIWByA7EKIXXCYOq1QPBAAIZBiA7DvITCp4TDAAYTBHYp3CpgTNxvdAAX+CZl+9wAECZjDBbIQEBCZwlC9ITOy98zOcFAITOzl+vgTQvJSCJ6QWBCYMaCZED852CAAXj21pCgkRswTBgEzmc78/rAgMwm1usLvDz1m2ATBAAMD5+TAodpiIVBt3njN+CYvn8YGDnwnEu18uAMDgHpDQkAnfms1mtc+/4TFvngAwgxCAQV3EAt8AwoWFvIMF5gTKgF/HYv5mATKnPLAoc3+4TLh3J8ayCvieDKBN85LVBznJJxaSCvPM5nJuYSMCgW73ezBIoA=&quot;</span><span class="err">))&#39;</span><span class="p">,</span>
+<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="w">        </span><span class="nt">&quot;tod&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="w">          </span><span class="mi">830</span><span class="p">,</span>
+<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a><span class="w">          </span><span class="mi">1330</span><span class="p">,</span>
+<a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a><span class="w">          </span><span class="mi">1930</span>
+<a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a><span class="w">        </span><span class="p">],</span>
+<a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a><span class="w">        </span><span class="nt">&quot;debounce&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">3600</span><span class="p">,</span>
+<a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a><span class="w">        </span><span class="nt">&quot;btPair&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
+<a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a><span class="w">        </span><span class="nt">&quot;btInfo&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a><span class="w">          </span><span class="nt">&quot;service&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1810&quot;</span><span class="p">,</span>
+<a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a><span class="w">          </span><span class="nt">&quot;supported&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a><span class="w">            </span><span class="s2">&quot;A&amp;D_UA-651&quot;</span>
+<a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a><span class="w">          </span><span class="p">]</span>
+<a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a><span class="w">        </span><span class="p">},</span>
+<a id="__codelineno-0-29" name="__codelineno-0-29" href="#__codelineno-0-29"></a><span class="w">        </span><span class="nt">&quot;options&quot;</span><span class="p">:{}</span>
+<a id="__codelineno-0-30" name="__codelineno-0-30" href="#__codelineno-0-30"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-0-31" name="__codelineno-0-31" href="#__codelineno-0-31"></a><span class="p">]</span>
+</code></pre></div>
+Lets break it down for the <code>Blood Pressure</code> task:</p>
+<ul>
+<li><code>id</code>: The identifier for the task. This is what is used in the cache file to associate the last reading with the task. must be unique.</li>
+<li><code>icon</code>: This is a single quote encapsulated javascript function, which will be passed through the <code>eval()</code> function to render an image in the button. For immediately available tasks, HeatSuite provides icons, but you are free to change them as you wish. You can use <a href="https://www.espruino.com/Image+Converter">Espruino's Image Converter</a> to generate the javascript function. Recommended settings include: Compression, transparent, and 40x40 px in size.</li>
+<li><code>tod</code>: (optional) An array of times of day (in HHMM) when the user will be notified that they need to do task(s).</li>
+<li><code>debounce</code>: (optional) This is the range, in seconds, whereby a notification will not be sent if the task was completed within that time frame of the nudge.</li>
+<li><code>btPair</code>: (optional) Required for any devices that must be paired before communication.</li>
+<li><code>btInfo</code>: (optional) Contains an object <code>{}</code> with details about the bluetooth device and what filters are needed for a connection.</li>
+<li><code>options</code>: (optional) Task-specific options that can be defined to modify the task.</li>
+</ul>
+<h2 id="what-tasks-are-immediately-available">What tasks are immediately available?</h2>
+<p>In the current HeatSuite Watch App version, the following tasks have already been embedded and examples are provided for inclusion in the <code>heatsuite.tasks.json</code> file:</p>
+<ul>
+<li><a href="#blood-pressure">Blood Pressure</a> (requires A&amp;D Medical UA651-BLE)</li>
+<li><a href="#oral-temperature">Oral Temperature</a> (requires custom BLE dongle)</li>
+<li><a href="#body-composition">Body Composition</a> (requires Xiaomi Mi Scale 2)</li>
+<li><a href="#mictruition">Mictruition</a></li>
+<li><a href="#ecological-momentary-assessments">Ecological Momentary Assessments</a></li>
+<li><a href="#5x-sit-to-stand">5x Sit To Stand</a></li>
+<li><a href="#custom-tasks">Custom Tasks</a></li>
+</ul>
+<h3 id="blood-pressure">Blood Pressure</h3>
+<p>Example task object for blood pressure measurements using the <a href="https://medical.andonline.com/product/premium-blood-pressure-monitor-ua-651ble/">A&amp;D Medical UA651-BLE</a>:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="p">{</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">    </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;bloodPressure&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">    </span><span class="nt">&quot;icon&quot;</span><span class="p">:</span><span class="w"> </span><span class="err">&#39;require(</span><span class="s2">&quot;heatshrink&quot;</span><span class="err">).decompress(a</span><span class="kc">t</span><span class="err">ob(</span><span class="s2">&quot;lEo4kA///zND//3BYOe98ggHGhEllM533ssW5odBhFOud642DhE10omCnczHSO3s3jmATP3MRjNrCh+2s0ZzNrCJkDn1mv1382X8YlMyMRi1xy1hzwSKhdxs12CYIWBu5RKm8WtMeCYfp8ATJ2MRiITDjPpsCUCu4ADv2w24TBjITCiOZE4MLCQgABve+MQMXCYeW2ATBv2ZAAeeve28w7Ey3mE4dCkQACx172INBtd+s1m81xJ4ITBpH/wn//oTB29pjIRBs1nAgITD7l3zGXv4nDsJRBiORz1hCYdCogBCCYWhiNusNutIWByA7EKIXXCYOq1QPBAAIZBiA7DvITCp4TDAAYTBHYp3CpgTNxvdAAX+CZl+9wAECZjDBbIQEBCZwlC9ITOy98zOcFAITOzl+vgTQvJSCJ6QWBCYMaCZED852CAAXj21pCgkRswTBgEzmc78/rAgMwm1usLvDz1m2ATBAAMD5+TAodpiIVBt3njN+CYvn8YGDnwnEu18uAMDgHpDQkAnfms1mtc+/4TFvngAwgxCAQV3EAt8AwoWFvIMF5gTKgF/HYv5mATKnPLAoc3+4TLh3J8ayCvieDKBN85LVBznJJxaSCvPM5nJuYSMCgW73ezBIoA=&quot;</span><span class="err">))&#39;</span><span class="p">,</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">    </span><span class="nt">&quot;tod&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="mi">830</span><span class="p">,</span><span class="mi">1330</span><span class="p">,</span><span class="mi">1930</span><span class="p">],</span>
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="w">    </span><span class="nt">&quot;debounce&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">3600</span><span class="p">,</span>
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">    </span><span class="nt">&quot;btPair&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="w">    </span><span class="nt">&quot;btInfo&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="w">        </span><span class="nt">&quot;service&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1810&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="w">        </span><span class="nt">&quot;supported&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;A&amp;D_UA-651&quot;</span><span class="p">]</span>
+<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="p">}</span>
+</code></pre></div>
+<h3 id="oral-temperature">Oral Temperature</h3>
+<p>Example task object for oral temperature measurements using a custom Bluetooth dongle interfacing with a YSI-400 series probe (contact <a href="mailto:nick.ravanelli@gmail.com">Nick Ravanelli</a> for more details):</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="p">{</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">    </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;coreTemperature&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">    </span><span class="nt">&quot;icon&quot;</span><span class="p">:</span><span class="w"> </span><span class="err">&#39;require(</span><span class="s2">&quot;heatshrink&quot;</span><span class="err">).decompress(a</span><span class="kc">t</span><span class="err">ob(</span><span class="s2">&quot;lEo4kA///A4Pf99fx3YtnjjEkkN/7+X0ujoFK/VusdBhH0ykIoXY2ozPjnBIyEBr2piATPiuq1WREx9aCYIoPjmaCYIoOgNo9ITC1gTMi3yvwoC9gmNw8nFAVRExmL5dyFAOlMZcBt+2223FAImN+9Emlru/cExlo6kzme8x9hJptkmYnBwwmN21DmdG3Am/TZF28YmPgvyl9rEx0AjsikX28wmNgFnkVyFAImNgHnl7pBvAmNgOyk/3u/2ExsM6UiEx8Ajd3u9/6omNgO3u/b8wSNgEeu974IRNEwPvu+xCRzrB+/+HBwABrF/8ISPhnXYBwAC5t9qImQ2/cCR8Ajm32ASPgPr5YmQj3eMCEB9qHQEycA5wmROoImRgAA==&quot;</span><span class="err">))&#39;</span><span class="p">,</span>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">    </span><span class="nt">&quot;tod&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="mi">830</span><span class="p">,</span><span class="mi">1330</span><span class="p">,</span><span class="mi">1930</span><span class="p">],</span>
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="w">    </span><span class="nt">&quot;debounce&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">3600</span><span class="p">,</span>
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="w">    </span><span class="nt">&quot;btPair&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="w">    </span><span class="nt">&quot;btInfo&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="w">        </span><span class="nt">&quot;service&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1809&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="w">        </span><span class="nt">&quot;supported&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;BLEThermistorPod&quot;</span><span class="p">]</span>
+<a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a><span class="p">}</span>
+</code></pre></div>
+<h3 id="body-composition">Body Composition</h3>
+<p>Example task object for body composition using the <a href="https://www.mi.com/global/product/mi-smart-scale-2/">Xiaomi Body Composition Scale 2</a>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="p">{</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="w">    </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;bodyMass&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="w">    </span><span class="nt">&quot;icon&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;require(&#39;heatshrink&#39;).decompress(atob(&#39;lEo4kB3//AAIJB7//wUQjnn485t97vvvoMIhlj9dasspptbz33kshiIApkUpylP/nGswAB5n/pOSkQSEl+3utVAAOI93uxAGCq96+QSCil1gczABdXyITBo4SDmt6ut61Wq09TBQU+ukRiVwDgcK5t1vvd7vc0ALD88hjgbDmcLvxOBAAOH2ALDgvBk5EEq1+wpfBrGHsoLDh1yyouEtN+q3M5llw+WvwMCgF5CYMFu9V3l2E4tn5dVu9Qh1ZCYN0/9E2s65phBMYWjrdE/9HCYOXmv2u9kqaLBRIKLDmtLu9vqF5y83o930lzWA83+4MCvMnmtKCZYgB2lQuQTBtmr5ijEAAc15mr+1euUqTYNESwgAFBgUO0Urgc+uwmIFAVn8fu2UW8czu2DCZM4s8z9FhCYVcE5fFmflsMcCAITP4MfCaPxigQB8yeIUAVumHloMZCYMLCZewCYORCYU32YTJndzCYUSEgM34p7BAA0+rgTBg8hCYM+ulE2oTHrdEo/g84TCmvLvdHgYSFmF009kuYTEu93tiNGDwN3vm+CYWjm9nCZvqkMR2E3pV6pQ7H1932lw9cRiNonGk+llMY9Wp9KwFWCYNFZgN3HQflrw8Du9emFUCYMqG41cdIIAEh2yCYMUbI1VqpSF89BCYMRo7FIAAc4ugSCiMZ2tY9wAGn3uwt7yITDiMp+1mAAtqrVmt+SCQgAl&#39;))&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="w">    </span><span class="nt">&quot;tod&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="mi">800</span><span class="p">],</span>
+<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="w">    </span><span class="nt">&quot;debounce&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">3600</span><span class="p">,</span>
+<a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="w">    </span><span class="nt">&quot;btPair&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span>
+<a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="w">    </span><span class="nt">&quot;btInfo&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a><span class="w">        </span><span class="nt">&quot;service&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;181b&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a><span class="w">        </span><span class="nt">&quot;supported&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;MIBFS&quot;</span><span class="p">]</span>
+<a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a><span class="p">}</span>
+</code></pre></div></p>
+<h3 id="mictruition">Mictruition</h3>
+<p>Example task object for the micruition feature which can be used to record urination frequency (indirect assessment of hydration <a href="https://doi.org/10.1038/ejcn.2014.278">Burchfield et al. 2015</a>), and subjective ratings of flow rate and urine color.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="p">{</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="w">    </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;urine&quot;</span><span class="p">,</span>
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="w">    </span><span class="nt">&quot;icon&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;require(&#39;heatshrink&#39;).decompress(atob(&#39;lEo4kA///7/3oMInGVtdC//3rvn5lS7/Gx1rksZDYIXB7edkAFB4wqGhcukXgHp0Lkkz6eaCheykWq9Ux5nM42elWilwjH0c97VG5lVqtcjOp7s3JwIAEgU4xF6tgSBAAPBzXf/FACYsK7GD1vFCYdcjuIx+bCY/azgSDAANRyePzwTHzQ6EAAWax87CY2Z1I6EHgVqvNyMY0q1ATGqsX1XrRg1JoITH4dJRY0Ao5iGAAPN1MkogVFogTI42p1uIUItEngTJ0lE0AnQle7J59d1JjHoemO4/JoYTHpGjWZGTCY9BzWMCYvBzVjCZFn1tc5gADtOtqewCY2py/qvOZAAeu1OUCY0LSYN3ogAEo90Yo0AgU4xAAJYooTBzvdABLFFAAMq1QAJMY+0ExMyCQ0AgkRjiKEAAQTIhVhirbGrmeCY8C6MRCY1VvYTHhwTI4x2HAANhCY/Ndw4AB0YTG5mERQ5QCods5nFrnM4Np1YSIAAOy1PWiMRtE31wSKgEL0mq0lEAQJNJHgc96c5zM9xFLCZcE7GPAAP4x7FIAAe5xGP/4AC7QTLlMzAAk0RRIAB8UiAAkuCYwA==&#39;))&quot;</span><span class="p">,</span>
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="w">    </span><span class="nt">&quot;cbBtn&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Bangle.load(&#39;heatsuite.urine.js&#39;);&quot;</span><span class="p">,</span>
+<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="w">    </span><span class="nt">&quot;debounce&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
+<a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="w">    </span><span class="nt">&quot;tod&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[],</span>
+<a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a><span class="w">    </span><span class="nt">&quot;options&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a><span class="w">        </span><span class="nt">&quot;alwaysColor&quot;</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w"> </span><span class="c1">//Always show the color scale when logging mictruition. Default is false.</span>
+<a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a><span class="p">}</span>
+</code></pre></div>
+<h3 id="ecological-momentary-assessments">Ecological Momentary Assessments</h3>
+<p>Example task object for Ecological Momentary Assessments where you want to programmatically nudge participants at fixed times of day. Requires a properly formatted <code>heatsuite.survey.json</code> file, which is <a href="/docs/watchapp/watchapp-ema.md">explained here</a>.</p>
+<p><em>NOTE</em>: This is not required if all you want to do is have surveys completed from a different queuing mechanism. </p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="p">{</span>
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="w">    </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;survey&quot;</span><span class="p">,</span>
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="w">    </span><span class="nt">&quot;icon&quot;</span><span class="p">:</span><span class="w"> </span><span class="err">&#39;require(</span><span class="s2">&quot;heatshrink&quot;</span><span class="err">).decompress(a</span><span class="kc">t</span><span class="err">ob(</span><span class="s2">&quot;lEo4kA///6H7BIP2m9hjEpyQLBxeq0UAp3js1Z5F59GB9nChvL+83E4cCkQABkA6NgUq293rVCChsq6MRAAOcoQmM4ISCAAPqFBclCQkRjJpBExOxCYsR8goJkmRB4XuAYUVCZMsJYdEFgUZoATIpwTC1XnooFC2QTIoIhCC4OqCYVyMRGhBoXhjNLAoXSCZkR2mpAgXilGIwRnFCYlKPgd40czmeoCglJCYd5AgdYn////zCgknBwfZAgeqCQIUCwQTClQOD3oDCj1DCYf/nATHAAcawYTE/Q8CkoTHvE/+c6mY8FMYgACi9Kn84xAqDmSfC7euCYnE0f/1CKBPQRQBgWqkUk3zeCvWKBwJ4BnATFKQUipWq0koBoSyBxATDZYsCkUAOgk4AoYTGAAUjCYgmCUAgAFlQTDRQQTGgUowQuBJ4f/nQEDRYIiD81u0UAhAODmYECeAkCq1ms1nkECbIoACD4ImCCQIAB2QGBFAYADHYchs3nv1msguBY4IAD+bhBCYVGs261YTCMovz1GKnSfCCYIACtRXCxTHBeAJYBxGACYek8wnDSYWIxAjCdocls0eE4PiXhAAEhEWCQNhoATNgFOCYPkCRxABpdqIQQUP2gSQCYMiCaMAHRw=&quot;</span><span class="err">))&#39;</span><span class="p">,</span>
+<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="w">    </span><span class="nt">&quot;cbBtn&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Bangle.load(&#39;heatsuite.survey.js&#39;);&quot;</span><span class="p">,</span>
+<a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a><span class="w">    </span><span class="nt">&quot;tod&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="mi">900</span><span class="p">,</span><span class="mi">1200</span><span class="p">,</span><span class="mi">1500</span><span class="p">,</span><span class="mi">1800</span><span class="p">],</span>
+<a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a><span class="w">    </span><span class="nt">&quot;debounce&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">300</span>
+<a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a><span class="p">}</span>
+</code></pre></div>
+<h3 id="5x-sit-to-stand">5x Sit to Stand</h3>
+<p>The <strong>Five Times Sit-to-Stand Test (5xSTS)</strong> is a simple functional assessment used to evaluate lower limb strength, balance, and mobility. In this test, participants sit in a standard-height chair without armrests, cross their arms over their chest, and are instructed to stand up and sit down five times as quickly and safely as possible. The total time taken to complete the five repetitions is recorded. The test provides an objective measure of functional lower-body performance and is widely used in clinical, geriatric, and exercise physiology settings.</p>
+<p><em>NOTE</em>: Validation ongoing - use at your own risk.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="p">{</span>
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="w">    </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;5sts&quot;</span><span class="p">,</span>
+<a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a><span class="w">    </span><span class="nt">&quot;icon&quot;</span><span class="p">:</span><span class="w"> </span><span class="err">&#39;require(</span><span class="s2">&quot;heatshrink&quot;</span><span class="err">).decompress(a</span><span class="kc">t</span><span class="err">ob(</span><span class="s2">&quot;lEo4kA///A4PTzkv/8fp/tjWCBoNGw+DrlGh0b9WsFZ8RiMQCR8BCYMREyEzmYoPgMTCYMxCaQoBCcs4HZ5jCJ553Bic7UCCfTCgLGQAAQTRHYQUQiMZoLvRolEoIoNBoMUCZ5MBgITQiMhiIT/CfbeMCZDeKCYoAC0IoJCZBSKCYMQiITRJQQACFgJQJCY4sBCZcSkQABIAYnPCYehCaEBihkJBwQEECc8AixkJCZB4KCakRCYYECgIEBCY4KBAgwDBMYg=&quot;</span><span class="err">));&#39;</span><span class="p">,</span>
+<a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a><span class="w">    </span><span class="nt">&quot;tod&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="mi">900</span><span class="p">],</span>
+<a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a><span class="w">    </span><span class="nt">&quot;debounce&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">300</span>
+<a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a><span class="p">}</span>
+</code></pre></div>
+<h3 id="custom-tasks">Custom Tasks</h3>
+<p>A unique feature to HeatSuite is the ability for researchers to create their own tasks and add them to the task object. Lets create a sleep marker where when users press the onscreen button, it will log an event marker. here is an example task object:</p>
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="p">{</span>
+<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="w">    </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;sleep&quot;</span><span class="p">,</span>
+<a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a><span class="w">    </span><span class="nt">&quot;icon&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;require(&#39;heatshrink&#39;).decompress(atob(&#39;lEo4kA///v3nBIPDjE968CqOzxlX/1m0VBhGBkHb61qpV4/0978Y2xZ1gQTmkQ9VkA9llJKMJZMjmRADlM85gAC4eSBYUCCIOW23Mmc281v30RAAXr+wLBmfMt9py0Rj27CAgAEBYIMCtMsB5AAE///33u4UD2ISLjfMnNu9cwhPxE5nr5m+9+QgVhBYhpBAAVrA4Mcn/ui0gCYsWnVVAANa0YLBsfxCZFjrGIAAWFm0fRQP+CY0fmoSDAANT/dmswTCMYkc1ATFxXBUIPuMYMDCYfsquqAAOlxGqqs7CYcwT4mzqfGGgNmu9onQTB93uT4ITFzHdAAd3xM/CYo7D2eWCYtpCYY7BMYgTNY4vzCY1jz4TCT4r5Bs92v996/3AoPM2J3BCYsfm/duvDtvWnk3u9z+ITIm3d63IE4Nss48BCYhjE5l9J4t35jHFT4fzr/dJoJRBu9lO4ITBT4MsNAPhHgPM7vfnnD/t3wf+8ITB93Cy0R9e//exspNBtGGHQQLC30RtOW+3Mmcz5/ztpOC692ngLC5lvtMjmUggAABhh5BWQciBYUCCIIQCAAcjs4SBuwMHAA+V42MrISOAAMikQSQAD4=&#39;))&quot;</span><span class="p">,</span>
+<a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a><span class="w">    </span><span class="nt">&quot;cbBtn&quot;</span><span class="p">:</span><span class="w"> </span><span class="err">&#39;modHS.saveDa</span><span class="kc">ta</span><span class="err">ToFile(</span><span class="s2">&quot;sleep&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;marker&quot;</span><span class="p">,</span><span class="w"> </span><span class="p">{</span><span class="nt">&quot;event&quot;</span><span class="p">:</span><span class="s2">&quot;sleep&quot;</span><span class="p">}</span><span class="err">);Ba</span><span class="kc">n</span><span class="err">gle.showClock();&#39;</span><span class="p">,</span>
+<a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a><span class="w">    </span><span class="nt">&quot;debounce&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
+<a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a><span class="w">    </span><span class="nt">&quot;tod&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[],</span>
+<a id="__codelineno-7-7" name="__codelineno-7-7" href="#__codelineno-7-7"></a><span class="p">}</span>
+</code></pre></div>
+This onscreen button returns customized javascript code that is encapsulated in quotations within the callback button key (<code>cbBtn</code>):</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="nx">modHS</span><span class="p">.</span><span class="nx">saveDataToFile</span><span class="p">(</span><span class="s2">&quot;sleep&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;marker&quot;</span><span class="p">,</span><span class="w"> </span><span class="p">{</span><span class="s2">&quot;event&quot;</span><span class="o">:</span><span class="s2">&quot;sleep&quot;</span><span class="p">});</span>
+<a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a><span class="nx">Bangle</span><span class="p">.</span><span class="nx">showClock</span><span class="p">();</span>
+</code></pre></div>
+<p>This first uses the <code>saveDataToFile()</code> function the HeatSuite Module (<code>modHS</code>) with three pieces of information:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>(&quot;sleep&quot;, &quot;marker&quot;, {&quot;event&quot;:&quot;sleep&quot;})
+</code></pre></div></p>
+<ul>
+<li>The first item, <code>"sleep"</code> must match the id of the task.</li>
+<li>The second item, <code>"marker"</code> is the file identifier for where the data is stored.</li>
+<li>The third item is the <code>data</code> that is to be stored, in an object format. The object contains the keys and values, whereby the keys will represent the column headers. If you wish to have multiple tasks store to the same file, you must declare all the possible keys in every custom task!</li>
+</ul>
+<p>These two lines of code do the following: </p>
+<p>On button press, a "sleep" event marker will be saved to the file: <code>htst_marker_DDMMYYYY</code> on the watch and give the following headers to the csv format: <code>unix,tz,event</code> (uniz and tz[timezone] are automatically prepended to the headers).</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../watchapp-ema/" class="md-footer__link md-footer__link--prev" aria-label="Previous: EMA Survey">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                EMA Survey
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../watchapp-hsmodule/" class="md-footer__link md-footer__link--next" aria-label="Next: HeatSuite Module">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                HeatSuite Module
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; 2025 <a href="https://github.com/nravanelli" target="_blank" rel="noopener">Nicholas Ravanelli</a>
+
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.path", "toc.integrate", "navigation.top", "navigation.footer", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotate", "content.code.copy", "content.footnote.tooltips", "announce.dismiss"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
