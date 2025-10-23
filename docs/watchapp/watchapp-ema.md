@@ -32,24 +32,27 @@ Below is an example of a heatsuite.survey.json file with one question, with two 
     "tod":[[0,2359]],
     "oncePerDay": true,
     "orderFix":false,
-    "options": [{
-        "text":{
-            "en_GB":"Comfortable",
-            "fr_CA":"Confortable"
-            },
-        "value":0,
-        "color":"#ffffff",
-        "btnColor":"#38ed35"
-        },{
-        "text":{
-            "en_GB":"Uncomfortable",
-            "fr_CA": "Inconfortable"
-            },
-        "value":1,
-        "color":"#ffffff",
-        "btnColor":"#ff0019",
-        "next": "uc_reason"
-        }]
+    "options": { 
+        "type" : "scroll",
+        "responses": [{
+                "text":{
+                    "en_GB":"Comfortable",
+                    "fr_CA":"Confortable"
+                    },
+                "value":0,
+                "color":"#ffffff",
+                "btnColor":"#38ed35"
+                },{
+                "text":{
+                    "en_GB":"Uncomfortable",
+                    "fr_CA": "Inconfortable"
+                    },
+                "value":1,
+                "color":"#ffffff",
+                "btnColor":"#ff0019",
+                "next": "uc_reason"
+                }]
+        }
     }]
 }
 ```
@@ -81,24 +84,27 @@ Lets break it down:
     "tod":[[0,2359]],
     "oncePerDay": true,
     "orderFix":false,
-    "options": [{
-        "text":{
-            "en_GB":"Comfortable",
-            "fr_CA":"Confortable"
-            },
-        "value":0,
-        "color":"#ffffff",
-        "btnColor":"#38ed35"
-        },{
-        "text":{
-            "en_GB":"Uncomfortable",
-            "fr_CA": "Inconfortable"
-            },
-        "value":1,
-        "color":"#ffffff",
-        "btnColor":"#ff0019",
-        "next": "uc_reason"
-        }],
+    "options": { 
+        "type" : "scroll",
+        "responses": [{
+                "text":{
+                    "en_GB":"Comfortable",
+                    "fr_CA":"Confortable"
+                    },
+                "value":0,
+                "color":"#ffffff",
+                "btnColor":"#38ed35"
+                },{
+                "text":{
+                    "en_GB":"Uncomfortable",
+                    "fr_CA": "Inconfortable"
+                    },
+                "value":1,
+                "color":"#ffffff",
+                "btnColor":"#ff0019",
+                "next": "uc_reason"
+                }]
+        }
 }
 ```
 
@@ -109,23 +115,23 @@ Lets break it down:
 * `oncePerDay`(optional): a boolean value (`true` or `false`) to restrict the question to only appear once a day.
 * `orderFix` (optional): a boolean value (`true` or `false`) to fix the order of this question if you have selected question randomization in HeatSuite settings.
 
-## Formatting the options key for different response types
+## Formatting your options object for different response types
 
-With HeatSuite watch app v0.12 and above, you now have the option to provide vertical scrolling options or numerical options. This is done by setting the options value as either an array `[]` of objects `{}` or as an object `{}`. This is explained below:
+With HeatSuite watch app **v0.12** and above, you now have the option to chose between  scrolling through responses or a numerical based response. Each uses the same `options` object `{}`, but with different settings. See below:
 
-### For scrollable options:
-* `options`: an array `[]` of objects `{}` containing details for each option to present for the user to select. Within each object, you have the following options:
-    * `text`: and object `{}` containing your language specific (key) option text (value).
-    * `value`: the numerical value you wish for response coding.
-    * `color`: The color of the option text.
-    * `btnColor`: The color of the option background.
-    * `next` (optional): the unique `key` of the follow up question. When this option is pressed, this will present the user the defined follow up question. You could iterate this 'next' feature to keep asking the same question over and over, or nest multiple follow up questions depending on response.
-
-### For numerical options:
 * `options`: an object `{}` containing the following keys:
-    * `startOpt`: The value you want presented first.
-    * `min`: The smallest value that can be selected.
-    * `max`: The highest value that can be selected.
-    * `optStep`: The step between values (e.g. 1 unit increments would be 1).
+    * `type`: A string defining the type of response style to generate (`numbers` or `scroll`)
+    * `startOpt` (required for `number` type): The value you want presented first.
+    * `min` (required for `number` type): The smallest value that can be selected.
+    * `max` (required for `number` type): The highest value that can be selected.
+    * `optStep` (required for `number` type): The step between values (e.g. 1 unit increments would be 1).
     * `units` (optional): To append to the visible response.
-    * `next` (optional): An object `{}` containing the specific values as `keys`, where their `value` is the the key of the follow up question.
+    * `next` (optional, ignored if responses is used): An object `{}` containing the specific response id as `keys`, where their `value` is the the key of the follow up question.
+    * `responses` (required for `scroll` type): An array `[]` of objects `{}` containing details for each option to present for the user to select. Within each object, you have the following options:
+        * `text`: object `{}` containing your language specific (key) option text (value).
+        * `value`: the numerical value you wish for response coding.
+        * `color`: The color of the option text.
+        * `btnColor`: The color of the option background.
+        * `next` (optional): the unique `key` of the follow up question. When this option is pressed, this will present the user the defined follow up question. **
+
+**Notes on `next` option: This allows for more detailed responses and feedback. You can even iterate this 'next' feature to keep asking the same question over and over, or nest multiple follow up questions depending on response.
