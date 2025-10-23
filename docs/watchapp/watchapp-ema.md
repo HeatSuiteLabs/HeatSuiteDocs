@@ -120,7 +120,7 @@ Lets break it down:
 With HeatSuite watch app **v0.12** and above, you now have the option to chose between  scrolling through responses or a numerical based response. Each uses the same `options` object `{}`, but with different settings. See below:
 
 * `options`: an object `{}` containing the following keys:
-    * `type`: A string defining the type of response style to generate (`numbers` or `scroll`)
+    * `type`: A string defining the type of response style to generate (`number` or `scroll`)
     * `startOpt` (required for `number` type): The value you want presented first.
     * `min` (required for `number` type): The smallest value that can be selected.
     * `max` (required for `number` type): The highest value that can be selected.
