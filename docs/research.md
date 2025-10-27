@@ -10,11 +10,15 @@ Ravanelli N, Lefebvre K, Brough A, Paquette S, Lin W. Validation of an Open-Sour
 
 Souilla, L., Lefebvre, K., Mornas, A., Kaiser, D., Gagnon, D., Ravanelli, N. In-situ responses of older adults living in social housing before, during and after a heatwave. *Global Health Symposium*, Copenhagen, Denmark, Dec 2025. Oral Presentation. 
 
+Guzmán-Echavarría, G.,  Middel, A., Ravanelli, N., Rentz, K., Meltzer, C., Munoz, M., Guardaro, M., Rosales Chavez, J. B., Vanos, J., Decoding the Individual Adaptive Response: Insights from Summertime Personal Heat Exposure, Thermal Perception and Heat Response in Older Adults in Phoenix, Arizona, ICUC12 International Conference in Urban Climate, Rotterdam, NL, July 2025. Oral Presentation
+
 Guzmán-Echavarría, G.,  Ravanelli, N., Middel, A., Rosales Chavez, J.B.,  Meltzer, C.,  Rentz, K., Munoz, M., Guardaro, M., Pinilla-Roncancio, M., Guzmán-Echavarría, E., Vanos, J., Decoding The Individual Heat Experience: Assessing Personal Heat Exposure, Adaptive Responses, and Non-Life Threatening Health Outcomes, *NSF NCAR Research Symposium: Human and Geographic Dimensions of Extreme Heat and Heat Risk*, Boulder, US, Jun 2025. Poster Presentation.
 
 Guzmán-Echavarría, G.,  Ravanelli, N., Middel, A., Rentz, K., Meltzer, C., Munoz, M., Guardaro, M., Rosales Chavez, J. B., Vanos, J., Unfolding the Individual Adaptive Response: Insights from Summertime Personal Heat Exposure and Thermal Preferences in Older Adults in Phoenix, Arizona. *CAPLTER  All Scientists Meeting and Poster Symposium*, Tempe, US, Jan 2025. Poster Presentation.
 
 Guzmán-Echavarría, G.,  Ravanelli, N., Middel, A., Rentz, K., Meltzer, C., Munoz, M., Guardaro, M., Rosales Chavez, J. B., Vanos, J., HeatSuite Phoenix Pilot: Assessing Non-life-Threatening Health Outcomes to Extreme Heat in Older Adults Living in Phoenix, Arizona. *AMS Annual meeting 2025*, New Orleans, US, Jan 2025. Oral Presentation.
+
+Guzmán-Echavarría, G., Ravanelli, N., Middel, A., Rentz, K., Meltzer, C., Munoz, M., Guardaro, M., Rosales Chavez, J. B., Vanos, J., Unfolding the Individual Adaptative Response: Insights from Summertime Personal Heat Exposure in Older Adults in Phoenix, Arizona, AGU Annual meeting 2024, Washington DC, US, December 2024. Oral Presentation.
 
 Ravanelli, N. Observing the in-situ physiological and behavioral responses heat-vulnerable individuals during extreme heat events to inform heat-illness detection models, *International Conference on Environmental Ergonomics*, Jeju, Korea 2024, Symposium.
 
