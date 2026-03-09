@@ -129,7 +129,7 @@ With HeatSuite watch app **v0.12** and above, you now have the option to chose b
     * `next` (optional, ignored if responses is used): An object `{}` containing the specific response id as `keys`, where their `value` is the the key of the follow up question.
     * `responses` (required for `scroll` type): An array `[]` of objects `{}` containing details for each option to present for the user to select. Within each object, you have the following options:
         * `text`: object `{}` containing your language specific (key) option text (value).
-        * `value`: the numerical value you wish for response coding.
+        * `value`: (integer) the value associated with response coding.
         * `color`: The color of the option text.
         * `btnColor`: The color of the option background.
         * `next` (optional): the unique `key` of the follow up question. When this option is pressed, this will present the user the defined follow up question. **

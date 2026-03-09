@@ -1,12 +1,12 @@
 Here is a list of publications using using HeatSuite.
 
-## Peer-Reviewed Publications:
+## Peer-Reviewed Publications
 
 Ravanelli N, Lefebre K, Mornas A, Gagnon D. Evaluating compliance with HeatSuite for monitoring in situ physiological and perceptual responses and personal environmental exposure. *npj-Digital Medicine*, 2025. doi: [10.1038/s41746-025-01608-z](https://doi.org/10.1038/s41746-025-01608-z)
 
 Ravanelli N, Lefebvre K, Brough A, Paquette S, Lin W. Validation of an Open-Source Smartwatch for Continuous Monitoring of Physical Activity and Heart Rate in Adults. *Sensors*. 2025; 25(9):2926. doi: [10.3390/s25092926](https://doi.org/10.3390/s25092926)
 
-## Conference Presentations:
+## Conference Presentations
 
 Souilla, L., Lefebvre, K., Mornas, A., Kaiser, D., Gagnon, D., Ravanelli, N. In-situ responses of older adults living in social housing before, during and after a heatwave. *Global Health Symposium*, Copenhagen, Denmark, Dec 2025. Oral Presentation. 
 
