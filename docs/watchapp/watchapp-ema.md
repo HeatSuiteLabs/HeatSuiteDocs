@@ -67,7 +67,15 @@ Lets break it down:
     "fr_CA":"Francais (CA)"
     }
 ```
-`supported` is object `{}` which contains all supported languages for your EMA. You must include all supported languages here as `key:value` with the key being the identifier (e.g. `en_GB`) and the value being the descriptor (e.g. `English (GB)`). The user will be able to select their prefered language within `Settings->Apps->HeatSuite`. HeatSuite recommends following the language convention used within [BangleApps locales.js](https://github.com/espruino/BangleApps/blob/master/apps/locale/locales.js).
+`supported` is object `{}` which contains all supported languages for your EMA. You must include all supported languages here as `key:value` with the key being the identifier (e.g. `en_GB`) and the value being the descriptor (e.g. `English (GB)`). The user will be able to select their prefered language within `Settings->Apps->HeatSuite`. HeatSuite recommends following the language convention used within [BangleApps locales.js](https://github.com/espruino/BangleApps/blob/master/apps/locale/locales.js). 
+
+As of v0.12, non-latin font types are supported through the [`fontall`](https://banglejs.com/apps/?id=fontall) application which broadly includes Simplified Chinese, Japanese, Russian, Korean, etc. To include these, you must include your desired supported language as follows:
+```json
+"cn_INTL" : "Chinese"
+//the prefix to the key is irrelevant, but the suffix must be _INTL
+```
+This, however, requires about **~2mb of flash space**. The `fontall` app is only made a dependency during installation of the HeatSuite app when it detects an `*_INTL` language included within the supported object.
+
 ```json
 "questions":[]
 ```
