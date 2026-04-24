@@ -12,21 +12,6 @@ Then click the &equiv; to open the app customizer. You will need to connect to t
 
 Each of the tabs contain settings you can set for the application, including [Tasks](watchapp-tasks.md) and [Ecological Momentary Assessments](watchapp-ema.md). Once you are satisfied with your settings, click "upload" at the bottom of the window. 
 
-## Pairing a Bluetooth Heart Rate Strap
-
-HeatSuite leverages the [BTHRM app](https://github.com/espruino/BangleApps/tree/master/apps/bthrm) available from the Bangle.js App Loader. This will automatically install alongside the HeatSuite app. Pairing a heart rate strap, particularly an ECG based one, is advantageous as you will also aggregrate all RR-intervals each minute (if supported by the heart rate monitor). We have tested the [Polar H10](https://www.polar.com/us-en/sensors/h10-heart-rate-sensor) and the [Powr-Labs chest-based HRM](https://www.powr-labs.com/products/powr-labs-pulsr-chest-heart-rate-monitor-ant-bluetooth-4-0-dualband) and both broadcast RR-intervals.
-
-Follow these instructions on the watch to pair a Bluetooth HRM:
-
-1. Navigate to `Settings->Apps->BTHRM`
-2. Click `BLE Scan`, which will scan for nearby Bluetooth HRM devices. If your device is not found, make sure it is on (some must be worn to be active and broadcasting).
-3. After the scan, you should be presented with a list of found devices. Click the one you want to pair to the watch.
-4. The pairing process will start and should return successful. If not, repeat scan.
-
-*__Note:__ The HeatSuite widget will have a BLUE Heart to demonstrate that a bluetooth heart rate strap is paired and sending data - green means just optical heart rate.*
-
-*__Note:__ Pairing an HRM does not automatically have it log data within HeatSuite, you must also enable BTHRM as a 'Recorder option' of HeatSuite; either within the App Loader Screen or on the watch within HeatSuite Settings.*
-
 ## Pairing a CORE/CALERA Sensor
 
 The CORE Sensor is a device which indirectly estimates core body temperature using a heat flux sensor (read more about it [here](https://corebodytemp.com/pages/core-sensor-technology)) and can measure skin temperature. The onboard proprietary algorithm has two modes, free-living and exertional, where exertional only engages when heart rate exceeds 120 BPM, and requires the pairing of an ANT+ or Bluetooth Heart Rate Strap to the CORE Sensor. While I will not comment on the validity and reliability of the GreenTEG solution for estimating core body temperature (you can read other [validation studies](https://scholar.google.ca/scholar?hl=en&as_sdt=0%2C5&q=%28%22CORE+Sensor%22+OR+%22CALERA%22%29+%26%26+%22GreenTEG%22&btnG=) for specific use cases), I included it in HeatSuite for skin temperature and heat flux monitoring ([CALERA](https://info.greenteg.com/calera-research) version is only capable of broadcasting heat flux - likely firmware locked on the CORE). Pairing the CORE/CALERA Sensor with the Bangle.js2 uses the [coretemp app](https://github.com/espruino/BangleApps/tree/master/apps/coretemp) available from the Bangle.js App Loader. 

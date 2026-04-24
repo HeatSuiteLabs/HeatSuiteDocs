@@ -33,6 +33,11 @@ theme:
       primary: teal
       accent: lime
 
+watch:
+  - docs
+  - mkdocs.yml
+  - overrides
+
 nav:
   - Home:
     - index.md
@@ -42,6 +47,7 @@ nav:
     - EMA Survey: watchapp/watchapp-ema.md
     - Tasks: watchapp/watchapp-tasks.md
     - HeatSuite Module: watchapp/watchapp-hsmodule.md
+    - Common Issues: watchapp/common-issues.md
   - Environmental Nodes:
     - Introduction: nodes/index.md
     - Primary Node Assembly: nodes/node-primary-build.md

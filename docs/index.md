@@ -12,7 +12,7 @@ The primary usecase of the HeatSuite system is to monitor the health and behavio
 
 ## What do I need?
 
-As HeatSuite is a modular system, you can pick and choose what you want to incorporate into your study design. The system is designed in this way so as to not limit researcher creativity or impose restrictions on what you can measure. If there is something you want to add or a feature you'd like to see, [let me know](emailto:nick.ravanelli@gmail.com). Below is a list of components within the HeatSuite system that you can select from to increase your level of monitoring. Again, you do not need all components, you can even just use the watch to create a fully governed data collection solution!
+As HeatSuite is a modular system, you can pick and choose what you want to incorporate into your study design. The system is designed in this way so as to not limit researcher creativity or impose restrictions on what you can measure. If there is something you want to add or a feature you'd like to see, [let me know](mailto:nick.ravanelli@gmail.com). Below is a list of components within the HeatSuite system that you can select from to increase your level of monitoring. Again, you do not need all components, you can even just use the watch to create a fully governed data collection solution!
 
 - [Bangle.js2](https://www.espruino.com/Bangle.js2)
     - [Documentation here](watchapp/index.md)

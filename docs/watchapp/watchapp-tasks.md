@@ -153,7 +153,7 @@ Example task object for the micruition feature which can be used to record urina
 
 ### Ecological Momentary Assessments
 
-Example task object for Ecological Momentary Assessments where you want to programmatically nudge participants at fixed times of day. Requires a properly formatted `heatsuite.survey.json` file, which is [explained here](/docs/watchapp/watchapp-ema.md).
+Example task object for Ecological Momentary Assessments where you want to programmatically nudge participants at fixed times of day. Requires a properly formatted `heatsuite.survey.json` file, which is [explained here](watchapp-ema.md).
 
 *NOTE*: This is not required if all you want to do is have surveys completed from a different queuing mechanism. 
 

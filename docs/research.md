@@ -1,4 +1,4 @@
-Here is a list of publications using using HeatSuite.
+Here is a list of publications using HeatSuite.
 
 ## Peer-Reviewed Publications
 
