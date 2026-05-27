@@ -159,7 +159,6 @@ With HeatSuite watch app **v0.12** and above, you now have the option to chose b
 `settings` is an optional object which can contain a host of global options that you can set to change the UI of the questions. Here are the current options that you can change:
 
 * `questionFont` (optional, default is `"18%"`): The font size used for question text when using standard/non-international fonts.
-  
 * `intlQuestionFont` (optional, default is `"Intl:1"`): The font used for question text when using international fonts such as those required for Chinese characters.
 * `questionPad` (optional, default is `2`): The padding around question text.
 * `nextButtonFont` (optional, default is `"15%"`): The font size used for the next button.
