@@ -22,6 +22,9 @@ Below is an example of a heatsuite.survey.json file with one question, with two 
     "en_GB":"English (GB)",
     "fr_CA":"Francais (CA)"
     },
+"settings":{
+
+}
 "questions":[{
     "key":"comfort",
     "followup": false,
@@ -60,7 +63,10 @@ And this will present us with this question on the watch (the top text is scroll
 
 ![HeatSuite EMA Example](../assets/heatsuite_ema_example.png)
 
-Lets break it down:
+Lets break it down.
+
+## Supported Languages
+
 ```json
 "supported":{
     "en_GB":"English (GB)",
@@ -76,6 +82,7 @@ As of v0.12, non-latin font types are supported through the [`fontall`](https://
 ```
 This, however, requires about **~2mb of flash space**. The `fontall` app is only made a dependency during installation of the HeatSuite app when it detects an `*_INTL` language included within the supported object.
 
+## Questions
 ```json
 "questions":[]
 ```
@@ -143,3 +150,32 @@ With HeatSuite watch app **v0.12** and above, you now have the option to chose b
         * `next` (optional): the unique `key` of the follow up question. When this option is pressed, this will present the user the defined follow up question. **
 
 **Notes on `next` option: This allows for more detailed responses and feedback. You can even iterate this 'next' feature to keep asking the same question over and over, or nest multiple follow up questions depending on response.
+
+## Settings
+```json
+"settings":{}
+```
+`settings` is an optional object which can contain a host of global options that you can set to change the UI of the questions. Here are the current options that you can change:
+* `questionFont` (optional, default is `"18%"`): The font size used for question text when using standard/non-international fonts.
+* `intlQuestionFont` (optional, default is `"Intl:1"`): The font used for question text when using international fonts such as those required for Chinese characters.
+* `questionPad` (optional, default is `2`): The padding around question text.
+* `nextButtonFont` (optional, default is `"15%"`): The font size used for the next button.
+* `nextButtonLabel` (optional, default is `">>"`): The text shown on the next button.
+* `nextButtonColor` (optional, default is `"#0f0"`): The background color of the next button.
+* `responseHeaderHeight` (optional, default is `30`): The height, in pixels, reserved for the question text shown above the response options.
+* `responseFontSize` (optional, default is `24`): The font size used for response option text when using standard/non-international fonts.
+* `responseMinFontSize` (optional, default is `14`): The smallest font size allowed when automatically shrinking standard response text to fit the screen.
+* `intlResponseFontSize` (optional, default is `2`): The font size used for response option text when using international fonts.
+* `intlResponseMinFontSize` (optional, default is `1`): The smallest international font size allowed when automatically shrinking response text to fit the screen.
+* `responseHeight` (optional, default is `30`): The default height, in pixels, used for each response option row.
+* `autoFitResponseHeight` (optional, default is `true`): A boolean value (`true` or `false`) that allows response rows to automatically expand when there are fewer than five response options. This is skipped when `wrapResponseText` is enabled.
+* `fitResponseText` (optional, default is `true`): A boolean value (`true` or `false`) that allows response text to automatically shrink when it is too wide for the screen and `wrapResponseText` is not enabled.
+* `wrapResponseText` (optional, default is `true`): A boolean value (`true` or `false`) that allows long response option text to wrap across multiple lines.
+* `responsePad` (optional, default is `4`): The padding, in pixels, inside each response option row.
+* `responseLineSpacing` (optional, default is `2`): The spacing, in pixels, between wrapped response text lines.
+* `responseMinHeight` (optional, default is `30`): The minimum height, in pixels, allowed for a response option row when wrapped response text is enabled.
+* `responseMaxHeight` (optional, default is `96`): The maximum height, in pixels, allowed for a response option row when wrapped response text is enabled.
+* `responseMaxLines` (optional, default is `3`): The maximum number of wrapped text lines shown for a response option.
+* `responseTextColor` (optional, default is `"#000"`): The default text color used for response options when a response does not define its own `color`.
+* `responsePalette` (optional): An array `[]` of colors used as default response option background colors when individual responses do not define `btnColor`. Colors are assigned in order and repeat if there are more response options than colors.
+* `responsePaletteIndex` (optional, default is `0`): The starting index for `responsePalette`. This lets you shift which color is used for the first response option.
