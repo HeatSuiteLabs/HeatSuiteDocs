@@ -9,7 +9,7 @@ The key distinction between these nodes is how it can manage the data it collect
 
 ## HeatSuite Link
 
-HeatSuite Link is the local device-to-device encrypted communication layer that lets nearby nodes exchange status, relay data, and coordinate updates when direct cloud connectivity is unavailable or less suitable. 
+HeatSuite Link is the local device-to-device encrypted communication layer that lets nearby nodes exchange status, relay data, and coordinate updates when direct cloud connectivity is unavailable or less suitable. The HeatSuite Link is encrypted and unique to the [HeatSuite Cloud](/docs/cloud/index.md) deployment, which means multiple HeatSuite deployments can operate simultaneously in close proximity without conflict.
 
 Each node periodically announces itself over a short-range radio link with basic readiness information and nearby nodes listen for those announcements. When a node cannot reach the server directly, or another nearby node is a better candidate with local storage (e.g. SD card), it can hand off its data. The receiving node can then forward that data through its own Wi-Fi or cellular connection, or hold it in local storage until transport is available.
 
@@ -37,7 +37,10 @@ flowchart LR
 
     E -- SD card --> G{Saved to SD}
     E -- No SD card --> H{lost data}  
+
 ```
+
+*Notes*: Outbox data is only sent directly to [HeatSuite Cloud](/docs/cloud/index.md), if the node is connected to an instance. 
 
 ## Data from Bangle.js2 or other wearables
 
