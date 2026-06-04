@@ -51,7 +51,7 @@ nav:
   - Environmental Nodes:
     - Introduction: nodes/index.md
     - Primary Node Assembly: nodes/node-primary-build.md
-    - Data Handling: nodes/datahandling.md
+    - Data Handling: nodes/data-handling.md
   - HeatSuite Cloud:
     - Introduction: cloud/index.md
     - Dashboard: cloud/dashboard.md
