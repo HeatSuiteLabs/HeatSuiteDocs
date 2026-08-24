@@ -1,0 +1,1600 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../dashboard/">
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Compliance - HeatSuite Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#compliance-monitoring" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+        <aside class="md-banner">
+          <div class="md-banner__inner md-grid md-typeset">
+            
+              <button class="md-banner__button md-icon" aria-label="Don't show this again">
+                
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+              </button>
+            
+            
+  <div style="color:orange;"><img alt="🚧" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f6a7.svg" title=":construction:"> <strong>This documentation is still under construction and may be incomplete</strong> <img alt="🚧" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f6a7.svg" title=":construction:"></div>
+
+          </div>
+          
+            <script>var el=document.querySelector("[data-md-component=announce]");if(el){var content=el.querySelector(".md-typeset");__md_hash(content.innerHTML)===__md_get("__announce")&&(el.hidden=!0)}</script>
+          
+        </aside>
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="HeatSuite Docs" class="md-header__button md-logo" aria-label="HeatSuite Docs" data-md-component="logo">
+      
+  <img src="../../assets/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            HeatSuite Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Compliance
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="purple"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="lime"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../.." class="md-tabs__link">
+          
+  
+  
+  Home
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../watchapp/" class="md-tabs__link">
+          
+  
+  
+  Watch Application
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../nodes/" class="md-tabs__link">
+          
+  
+  
+  Environmental Nodes
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+  
+  HeatSuite Cloud
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="HeatSuite Docs" class="md-nav__button md-logo" aria-label="HeatSuite Docs" data-md-component="logo">
+      
+  <img src="../../assets/logo.svg" alt="logo">
+
+    </a>
+    HeatSuite Docs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Home
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Begin
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Research Using HeatSuite
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Watch Application
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Watch Application
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../watchapp/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Watch Setup
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../watchapp/watchapp-ema/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EMA Survey
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../watchapp/watchapp-tasks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tasks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../watchapp/watchapp-hsmodule/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HeatSuite Module
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../watchapp/common-issues/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Common Issues
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Environmental Nodes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Environmental Nodes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../nodes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../nodes/node-primary-build/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Primary Node Assembly
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../nodes/supported-devices/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Supported Devices
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../nodes/data-handling/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data Handling
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HeatSuite Cloud
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    HeatSuite Cloud
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dashboard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dashboard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Compliance
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Compliance
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-compliance-monitoring-measures" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What Compliance Monitoring Measures
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-concepts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Concepts
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Key Concepts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#participant" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Participant
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#monitoring-session" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Monitoring Session
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#smartwatch-assignment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Smartwatch Assignment
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#published-task-profile" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Published Task Profile
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#before-starting-monitoring" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Before Starting Monitoring
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adding-a-participant" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding a Participant
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#changing-a-smartwatch-during-participation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Changing a Smartwatch During Participation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pausing-resuming-and-ending-monitoring" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pausing, Resuming, and Ending Monitoring
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recalculating-compliance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recalculating Compliance
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#compliance-statuses" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Compliance Statuses
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#assessed-compliance-and-coverage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Assessed Compliance and Coverage
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reviewing-compliance-details" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reviewing Compliance Details
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#last-sync-and-stale-sync-warnings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Last Sync and Stale-Sync Warnings
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wearable-uptime" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wearable Uptime
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cloud-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cloud Settings
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This feature is still in beta testing.</p>
+</div>
+<h1 id="compliance-monitoring">Compliance Monitoring</h1>
+<p>HeatSuite Cloud can calculate participant-level smartwatch compliance for study tasks and passive wearable uptime. Compliance monitoring is designed for studies where each participant is assigned a smartwatch for a defined monitoring period, and where the same smartwatch may later be reused by another participant or switched during participation.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Scheduled task compliance is calculated only from published Study Task profiles. Draft or unpublished task profiles are ignored by the compliance worker. Wearable uptime can still be calculated independently.</p>
+</div>
+<h2 id="what-compliance-monitoring-measures">What Compliance Monitoring Measures</h2>
+<p>Compliance monitoring answers:</p>
+<blockquote>
+<p>During this participant's monitoring period, did the expected smartwatch tasks appear in the uploaded data during their allowed time windows?</p>
+</blockquote>
+<p>Compliance can include:</p>
+<ul>
+<li>scheduled study tasks, such as blood pressure, core temperature, body mass, surveys, or sit-to-stand tasks</li>
+<li>passive wearable uptime from <code>mindata</code></li>
+<li>missed, pending, and completed expected task windows</li>
+<li>watch switches during a participant's monitoring period</li>
+<li>stale-sync warnings when a watch has not uploaded data recently</li>
+</ul>
+<h2 id="key-concepts">Key Concepts</h2>
+<h3 id="participant">Participant</h3>
+<p>A participant is the study-facing person or subject identifier, such as <code>P04</code>. Participants are managed from the <strong>Participants</strong> page.</p>
+<p>Participant records include:</p>
+<ul>
+<li>label</li>
+<li>optional group</li>
+<li>participant status</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Avoid storing personally identifying information in participant labels unless your deployment has appropriate HIPAA/GDPR compliant security.</p>
+</div>
+<h3 id="monitoring-session">Monitoring Session</h3>
+<p>A monitoring session is the participant's study monitoring period.</p>
+<p>It includes:</p>
+<ul>
+<li>participant</li>
+<li>session start time</li>
+<li>optional session end time</li>
+<li>timezone</li>
+<li>optional session label</li>
+<li>active, paused, or ended state</li>
+</ul>
+<p>If no session label is set, the dashboard shows <code>Not labelled</code>.</p>
+<h3 id="smartwatch-assignment">Smartwatch Assignment</h3>
+<p>Smartwatch assignments track which watch was used during which time period inside a monitoring session.</p>
+<p>A participant can keep the same monitoring session even if the smartwatch changes. When a watch is switched, HeatSuite closes the old smartwatch assignment and starts a new one at the selected switch time.</p>
+<h3 id="published-task-profile">Published Task Profile</h3>
+<p>Scheduled compliance is based on the active published Study Task profile assigned to the participant's smartwatch assignment.</p>
+<p>If a selected task profile is not published:</p>
+<ul>
+<li>the participant page shows a warning</li>
+<li>the profile is labelled as <code>not published</code></li>
+<li>starting or switching monitoring to that profile is blocked</li>
+<li>the compliance worker will not calculate scheduled task compliance for that profile</li>
+</ul>
+<h2 id="before-starting-monitoring">Before Starting Monitoring</h2>
+<p>Before enrolling a participant for compliance monitoring:</p>
+<ol>
+<li>Go to <strong>Study Design</strong>.</li>
+<li>Create or edit a Study Task profile.</li>
+<li>Publish the Study Task profile.</li>
+<li>Confirm the smartwatch has checked in and appears in HeatSuite Cloud.</li>
+<li>Go to <strong>Participants</strong>.</li>
+</ol>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>If the Study Task profile is only saved as a draft, scheduled task compliance will not be calculated.</p>
+</div>
+<h2 id="adding-a-participant">Adding a Participant</h2>
+<p>Open <strong>Participants</strong> and select <strong>Add participant</strong>.</p>
+<p>Enter:</p>
+<ul>
+<li>participant label, such as <code>P04</code></li>
+<li>optional group</li>
+<li>participant status</li>
+</ul>
+<p>To start monitoring immediately, also select:</p>
+<ul>
+<li>smartwatch</li>
+<li>published Study Task profile</li>
+<li>participant timezone</li>
+<li>monitoring start time</li>
+<li>optional monitoring end time</li>
+<li>optional session label</li>
+</ul>
+<p>If <code>monitoring start</code> is left blank, HeatSuite uses the creation time.</p>
+<p>If <code>monitoring end</code> is left blank, the monitoring session remains ongoing.</p>
+<h2 id="changing-a-smartwatch-during-participation">Changing a Smartwatch During Participation</h2>
+<p>If a participant changes watches:</p>
+<ol>
+<li>Go to <strong>Participants</strong>.</li>
+<li>Find the participant row.</li>
+<li>Select the switch-watch icon beside the smartwatch.</li>
+<li>Choose the replacement smartwatch.</li>
+<li>Choose the published Study Task profile.</li>
+<li>Set the switch time, or leave it blank to use the current time.</li>
+<li>Confirm the switch.</li>
+</ol>
+<p>HeatSuite keeps the same monitoring session and records the watch change as a new smartwatch assignment. Compliance results after the switch are linked to the new assignment.</p>
+<h2 id="pausing-resuming-and-ending-monitoring">Pausing, Resuming, and Ending Monitoring</h2>
+<p>From the <strong>Participants</strong> page:</p>
+<ul>
+<li>Pause monitoring when a participant is temporarily not being monitored.</li>
+<li>Resume monitoring when monitoring should continue.</li>
+<li>Stop monitoring when participation has ended.</li>
+</ul>
+<p>When stopping a monitoring session, you can also update the participant status, such as <code>completed</code> or <code>withdrawn</code>.</p>
+<p>Ended sessions can still be recalculated if older files are uploaded later.</p>
+<h2 id="recalculating-compliance">Recalculating Compliance</h2>
+<p>Use the recalculate icon (<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.65 6.35A7.96 7.96 0 0 0 12 4a8 8 0 0 0-8 8 8 8 0 0 0 8 8c3.73 0 6.84-2.55 7.73-6h-2.08A5.99 5.99 0 0 1 12 18a6 6 0 0 1-6-6 6 6 0 0 1 6-6c1.66 0 3.14.69 4.22 1.78L13 11h7V4z"/></svg></span>) on the participant row to queue a recalculation for that participant's monitoring session.</p>
+<p>Recalculation is useful when:</p>
+<ul>
+<li>old files are uploaded after the participant has ended</li>
+<li>a session start or end time is edited</li>
+<li>a timezone is corrected</li>
+<li>a smartwatch switch time is corrected</li>
+<li>task compliance results need to be refreshed</li>
+</ul>
+<h2 id="compliance-statuses">Compliance Statuses</h2>
+<p>Each expected task or uptime window can be:</p>
+<table>
+<thead>
+<tr>
+<th>Status</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>complete</code></td>
+<td>Required data was found inside the compliance window.</td>
+</tr>
+<tr>
+<td><code>missed</code></td>
+<td>Synced data has passed the compliance window, but required data was not found.</td>
+</tr>
+<tr>
+<td><code>pending</code></td>
+<td>The watch has not synced data far enough to determine whether the task was missed.</td>
+</tr>
+</tbody>
+</table>
+<p>Pending does not mean the task was missed. It means HeatSuite Cloud does not yet have enough synced data to make a final decision.</p>
+<h2 id="assessed-compliance-and-coverage">Assessed Compliance and Coverage</h2>
+<p>The participant table and compliance modal separate assessed compliance from coverage.</p>
+<table>
+<thead>
+<tr>
+<th>Metric</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Assessed compliance</td>
+<td><code>complete / (complete + missed)</code></td>
+</tr>
+<tr>
+<td>Coverage</td>
+<td><code>(complete + missed) / expected</code></td>
+</tr>
+<tr>
+<td>Pending</td>
+<td>Expected windows that cannot be finalized yet</td>
+</tr>
+</tbody>
+</table>
+<p>Example:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>Assessed: 99% (233/236)
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>Coverage: 9% (236/2586)
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>Pending: 2350
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>Expected: 2586
+</code></pre></div>
+<p>This means the synced portion is highly compliant, but most expected windows are still unknown because the watch has not synced.</p>
+<p>The main participant table badge shows:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>Assessed % / Coverage %
+</code></pre></div>
+<p>For example:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>99% / 9%
+</code></pre></div>
+<p>Low coverage is shown as a neutral or warning badge instead of green, even when assessed compliance is high.</p>
+<h2 id="reviewing-compliance-details">Reviewing Compliance Details</h2>
+<p>On the <strong>Participants</strong> page, select the compliance badge for a participant.</p>
+<p>The compliance details modal shows:</p>
+<ul>
+<li>participant label</li>
+<li>smartwatch</li>
+<li>session label</li>
+<li>timezone</li>
+<li>last sync time</li>
+<li>stale-sync warning, if applicable</li>
+<li>task-level assessed compliance and coverage</li>
+</ul>
+<p>The summary table includes:</p>
+<table>
+<thead>
+<tr>
+<th>Column</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Task</td>
+<td>Study task or wearable uptime task</td>
+</tr>
+<tr>
+<td>Assessed</td>
+<td>Compliance among finalized windows</td>
+</tr>
+<tr>
+<td>Coverage</td>
+<td>Proportion of expected windows that have been assessed</td>
+</tr>
+<tr>
+<td>Complete</td>
+<td>Finalized windows with data present</td>
+</tr>
+<tr>
+<td>Missed</td>
+<td>Finalized windows with no required data</td>
+</tr>
+<tr>
+<td>Pending</td>
+<td>Windows waiting for more synced data</td>
+</tr>
+<tr>
+<td>Expected</td>
+<td>Total expected windows</td>
+</tr>
+</tbody>
+</table>
+<p>Select a task in the modal to open the daily compliance graph for that task.</p>
+<h2 id="last-sync-and-stale-sync-warnings">Last Sync and Stale-Sync Warnings</h2>
+<p>HeatSuite tracks the last processed smartwatch file for each watch. If an active participant's watch has not synced within the configured stale-sync period, the Participants page and compliance modal show a warning.</p>
+<p>The default stale-sync period is <code>48 hours</code>. This can be changed by:</p>
+<ol>
+<li>Go to <strong>Cloud Settings</strong>.</li>
+<li>Open <strong>Compliance Monitoring</strong>.</li>
+<li>Change <strong>No-sync alert hours</strong>.</li>
+<li>Save compliance settings.</li>
+</ol>
+<p>The stale-sync warning does not mark tasks as missed by itself. It indicates that many compliance windows may remain pending until the watch syncs again.</p>
+<h2 id="wearable-uptime">Wearable Uptime</h2>
+<p>Wearable uptime is calculated from passive <code>mindata</code> rows.</p>
+<p>Uptime uses:</p>
+<ul>
+<li>uptime window minutes</li>
+<li>minimum rows per window</li>
+<li>uptime measurement, usually <code>mindata</code></li>
+</ul>
+<p>These settings are configured in <strong>Cloud Settings</strong> under <strong>Compliance Monitoring</strong>.</p>
+<p>Wearable uptime is independent from published Study Task profiles. It can still be calculated even if scheduled task compliance is not available.</p>
+<h2 id="cloud-settings">Cloud Settings</h2>
+<p>Compliance settings are managed in <strong>Cloud Settings</strong>.</p>
+<p>Available settings include:</p>
+<ul>
+<li>run compliance monitor</li>
+<li>worker interval</li>
+<li>compliance window before the scheduled task time</li>
+<li>compliance window after the scheduled task time</li>
+<li>recompute lookback hours</li>
+<li>no-sync alert hours</li>
+<li>wearable uptime monitoring</li>
+<li>uptime window minutes</li>
+<li>minimum rows</li>
+<li>uptime measurement</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../dashboard/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Dashboard">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Dashboard
+              </div>
+            </div>
+          </a>
+        
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; 2026 <a href="https://github.com/nravanelli" target="_blank" rel="noopener">Nicholas Ravanelli</a>
+
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.path", "toc.integrate", "navigation.top", "navigation.footer", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotate", "content.code.copy", "content.footnote.tooltips", "announce.dismiss"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
