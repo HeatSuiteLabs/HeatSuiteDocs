@@ -51,10 +51,12 @@ nav:
   - Environmental Nodes:
     - Introduction: nodes/index.md
     - Primary Node Assembly: nodes/node-primary-build.md
+    - Supported Devices: nodes/supported-devices.md
     - Data Handling: nodes/data-handling.md
   - HeatSuite Cloud:
     - Introduction: cloud/index.md
     - Dashboard: cloud/dashboard.md
+    - Compliance: cloud/compliance.md
 plugins:
   - search
 
