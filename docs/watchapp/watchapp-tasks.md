@@ -86,7 +86,7 @@ In the current HeatSuite Watch App version, the following tasks have already bee
 
 ### Blood Pressure
 
-Example task object for blood pressure measurements using the [A&D Medical UA651-BLE](https://medical.andonline.com/product/premium-blood-pressure-monitor-ua-651ble/):
+Example task object for blood pressure measurements using the either the [A&D Medical UA-651BLE](https://medical.andonline.com/product/premium-blood-pressure-monitor-ua-651ble/) or [A&D Medical UA-1200BLE](https://medical.andonline.com/product/ultraconnect-premium-wireless-blood-pressure-monitor-ua-1200ble/):
 
 ```json
 {
@@ -94,11 +94,6 @@ Example task object for blood pressure measurements using the [A&D Medical UA651
     "icon": 'require("heatshrink").decompress(atob("lEo4kA///zND//3BYOe98ggHGhEllM533ssW5odBhFOud642DhE10omCnczHSO3s3jmATP3MRjNrCh+2s0ZzNrCJkDn1mv1382X8YlMyMRi1xy1hzwSKhdxs12CYIWBu5RKm8WtMeCYfp8ATJ2MRiITDjPpsCUCu4ADv2w24TBjITCiOZE4MLCQgABve+MQMXCYeW2ATBv2ZAAeeve28w7Ey3mE4dCkQACx172INBtd+s1m81xJ4ITBpH/wn//oTB29pjIRBs1nAgITD7l3zGXv4nDsJRBiORz1hCYdCogBCCYWhiNusNutIWByA7EKIXXCYOq1QPBAAIZBiA7DvITCp4TDAAYTBHYp3CpgTNxvdAAX+CZl+9wAECZjDBbIQEBCZwlC9ITOy98zOcFAITOzl+vgTQvJSCJ6QWBCYMaCZED852CAAXj21pCgkRswTBgEzmc78/rAgMwm1usLvDz1m2ATBAAMD5+TAodpiIVBt3njN+CYvn8YGDnwnEu18uAMDgHpDQkAnfms1mtc+/4TFvngAwgxCAQV3EAt8AwoWFvIMF5gTKgF/HYv5mATKnPLAoc3+4TLh3J8ayCvieDKBN85LVBznJJxaSCvPM5nJuYSMCgW73ezBIoA="))',
     "tod": [830,1330,1930],
     "debounce": 3600,
-    "btPair": true,
-    "btInfo": {
-        "service": "1810",
-        "supported": ["A&D_UA-651"]
-    }
 }
 ```
 ### Oral Temperature
@@ -111,11 +106,6 @@ Example task object for oral temperature measurements using a custom Bluetooth d
     "icon": 'require("heatshrink").decompress(atob("lEo4kA///A4Pf99fx3YtnjjEkkN/7+X0ujoFK/VusdBhH0ykIoXY2ozPjnBIyEBr2piATPiuq1WREx9aCYIoPjmaCYIoOgNo9ITC1gTMi3yvwoC9gmNw8nFAVRExmL5dyFAOlMZcBt+2223FAImN+9Emlru/cExlo6kzme8x9hJptkmYnBwwmN21DmdG3Am/TZF28YmPgvyl9rEx0AjsikX28wmNgFnkVyFAImNgHnl7pBvAmNgOyk/3u/2ExsM6UiEx8Ajd3u9/6omNgO3u/b8wSNgEeu974IRNEwPvu+xCRzrB+/+HBwABrF/8ISPhnXYBwAC5t9qImQ2/cCR8Ajm32ASPgPr5YmQj3eMCEB9qHQEycA5wmROoImRgAA=="))',
     "tod": [830,1330,1930],
     "debounce": 3600,
-    "btPair": true,
-    "btInfo": {
-        "service": "1809",
-        "supported": ["BLEThermistorPod"]
-    }
 }
 ```
 
@@ -127,12 +117,7 @@ Example task object for body composition using the [Xiaomi Body Composition Scal
     "id": "bodyMass",
     "icon": "require('heatshrink').decompress(atob('lEo4kB3//AAIJB7//wUQjnn485t97vvvoMIhlj9dasspptbz33kshiIApkUpylP/nGswAB5n/pOSkQSEl+3utVAAOI93uxAGCq96+QSCil1gczABdXyITBo4SDmt6ut61Wq09TBQU+ukRiVwDgcK5t1vvd7vc0ALD88hjgbDmcLvxOBAAOH2ALDgvBk5EEq1+wpfBrGHsoLDh1yyouEtN+q3M5llw+WvwMCgF5CYMFu9V3l2E4tn5dVu9Qh1ZCYN0/9E2s65phBMYWjrdE/9HCYOXmv2u9kqaLBRIKLDmtLu9vqF5y83o930lzWA83+4MCvMnmtKCZYgB2lQuQTBtmr5ijEAAc15mr+1euUqTYNESwgAFBgUO0Urgc+uwmIFAVn8fu2UW8czu2DCZM4s8z9FhCYVcE5fFmflsMcCAITP4MfCaPxigQB8yeIUAVumHloMZCYMLCZewCYORCYU32YTJndzCYUSEgM34p7BAA0+rgTBg8hCYM+ulE2oTHrdEo/g84TCmvLvdHgYSFmF009kuYTEu93tiNGDwN3vm+CYWjm9nCZvqkMR2E3pV6pQ7H1932lw9cRiNonGk+llMY9Wp9KwFWCYNFZgN3HQflrw8Du9emFUCYMqG41cdIIAEh2yCYMUbI1VqpSF89BCYMRo7FIAAc4ugSCiMZ2tY9wAGn3uwt7yITDiMp+1mAAtqrVmt+SCQgAl'))",
     "tod": [800],
-    "debounce": 3600,
-    "btPair": false,
-    "btInfo": {
-        "service": "181b",
-        "supported": ["MIBFS"]
-    }
+    "debounce": 3600
 }
 ```
 ### Mictruition

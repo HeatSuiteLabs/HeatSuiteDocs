@@ -2,6 +2,8 @@ Here is a list of publications using HeatSuite.
 
 ## Peer-Reviewed Publications
 
+Guzmán-Echavarría G,  Middel A, Ravanelli N, Rosales Chavez JB, Caldwell AR, Metzler C, Rentz K, Munoz M, Guardaro M, Vanos J. Who Can Avoid the Heat? Inter-Individual Differences in 24-hr Heat Exposure Reveal Disparities in Heat Adaptation and Stress. *GeoHealth*, 2026. doi: [10.1029/2026GH001914](https://doi.org/10.1029/2026GH001914)
+
 Ravanelli N, Lefebre K, Mornas A, Gagnon D. Evaluating compliance with HeatSuite for monitoring in situ physiological and perceptual responses and personal environmental exposure. *npj-Digital Medicine*, 2025. doi: [10.1038/s41746-025-01608-z](https://doi.org/10.1038/s41746-025-01608-z)
 
 Ravanelli N, Lefebvre K, Brough A, Paquette S, Lin W. Validation of an Open-Source Smartwatch for Continuous Monitoring of Physical Activity and Heart Rate in Adults. *Sensors*. 2025; 25(9):2926. doi: [10.3390/s25092926](https://doi.org/10.3390/s25092926)
