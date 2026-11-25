@@ -56,6 +56,9 @@ nav:
   - HeatSuite Cloud:
     - Introduction: cloud/index.md
     - Dashboard: cloud/dashboard.md
+    - Wearable Settings: cloud/wearable-settings.md
+    - Study Design: cloud/study-design.md
+    - Participant Management: cloud/participants.md
     - Compliance: cloud/compliance.md
 plugins:
   - search
